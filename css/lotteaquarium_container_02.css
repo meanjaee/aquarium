@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url(/aquarium/fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url(/aquarium/fonts/NotoSans-Light.ttf);
+}
+
 .content {
     width: 0;
     height: 100%;
@@ -9,8 +19,14 @@
 
 .content.active {
     width: 75%;
-    padding: 10px;
+    padding: 30px;
     overflow: hidden;  
+}
+
+.content button{
+    border: none;
+    background: none;
+    font-size: 20px;
 }
 
 .tab {
@@ -110,6 +126,33 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     border: none;
     background: none;
     font-size: 20pt;
+}
+
+.n_03 ul{
+    padding: 30px;
+}
+.n_03 .subject strong{
+    padding: 10px;
+    font-size: 20pt;
+}
+.n_03 ul li button{
+    border: none;
+    background: none;
+}
+.n_03 .box{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.p-1, .p-2, .p-3{
+    width: 25%;
+    height: 60vh;
+    border: 1px solid #000;
+}
+.p-2, .p-3{
+    display:none;
 }
 
 @media screen and (min-width:1440px) {

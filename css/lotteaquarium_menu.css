@@ -38,6 +38,11 @@ a {
     font-family: 'NotoSans-Light';
 }
 
+.sns img {
+    width: 31.5px;
+    height: 30px;
+}
+
 @media screen and (min-width:1440px) {
 
     body {
@@ -1059,7 +1064,7 @@ a {
     }
 
     .sec {
-        width: 100vh;
+        /* width: 100vh; */
         height: calc(100vh - 200px);
     }
 
