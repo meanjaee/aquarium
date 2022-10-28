@@ -1020,7 +1020,7 @@ a {
 
     .sns img {
         width: 24px;
-        height: 2 0px;
+        height: 20px;
     }
 
     .sns_hire {
@@ -1455,7 +1455,7 @@ a {
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (min-width:360px) and (max-width:640px) {
     body {
         padding: 0;
         margin: 0;
@@ -1519,7 +1519,6 @@ a {
         width: 100%;
         height: 160px;
     }
-
     .global_01 .inner {
         width: 100%;
         margin: 0;
@@ -1535,7 +1534,6 @@ a {
         margin: 80px 0 120px;
 
     }
-
     .platform {
         width: 270px;
         gap: 50px;
@@ -1569,14 +1567,12 @@ a {
         gap: 30px;
         padding-bottom: 40px;
     }
-
     .a_ticket_01 span {
         font-size: 40px;
         color: #000;
         transition: all 0.5s;
 
     }
-
     .a_ticket_01 a {
         display: flex;
         flex-direction: row;
@@ -1584,18 +1580,15 @@ a {
         align-items: center;
         gap: 10px;
     }
-
     .a_ticket_01 h2 {
         color: #000;
         transition: all 0.5s;
         font-size: 20pt;
         line-height: 0;
     }
-
     .a_ticket_01 a:hover > span {
         color: orange;
     }
-
     .a_ticket_01 a:hover > h2 {
         color: orange;
     }
@@ -1610,13 +1603,11 @@ a {
         border-top: 1px solid #fff;
         overflow: hidden;
     }
-
     .global_02 nav {
         width: 100%;
         height: auto;
         /* overflow: hidden; */
     }
-
     .global_02 ul {
 
         display: none;
@@ -1624,16 +1615,13 @@ a {
 
 
     }
-
     .global_02 ul li {
         margin-bottom: 20px;
     }
-
     .global_02 h2 {
         color: #fff;
         font-size: 20pt;
     }
-
     ul {
         list-style-type: none;
         margin: 0;
@@ -1651,7 +1639,6 @@ a {
         align-items: center;
         z-index: 100;
     }
-
     header {
         top: 0;
         height: 80px;
@@ -1663,7 +1650,6 @@ a {
         background: #b6e9fc;
 
     }
-
     header a, header button {
         display: flex;
         justify-content: center;
@@ -1673,7 +1659,6 @@ a {
 
 
     }
-
     header button {
         gap: 15px;
         display: flex;
@@ -1685,28 +1670,23 @@ a {
 
 
     }
-
     button .material-symbols-outlined {
         font-size: 40px;
     }
-
     header button:active {
         border: none;
         background: none;
     }
-
     header img {
         width: 56px;
         height: 50px;
     }
-
     header .language {
         font-size: 20pt;
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
-
     header #logo {
         display: flex;
         flex-direction: row;
@@ -1720,7 +1700,6 @@ a {
     #logo a {
         font-size: 0;
     }
-
     footer p {
         margin: 20px auto;
         display: block;
@@ -1732,8 +1711,6 @@ a {
     .a_ticket_02 {
         display: none;
     }
-
-
 
     .foot footer {
         position: fixed;
@@ -1749,12 +1726,10 @@ a {
         overflow: hidden;
         transition: all 0.5s;
     }
-
     footer p {
         font-size: 12pt;
         line-height: 0;
     }
-
     footer .left {
         width: 100%;
         padding: 0 20px;
@@ -1764,7 +1739,6 @@ a {
         justify-content: space-between;
         font-size: 16pt;
     }
-
     .left button {
         display: none;
     }
@@ -1773,20 +1747,15 @@ a {
         display: flex;
         flex-direction: row;
     }
-
     .foot .footer_inner {
         display: none;
     }
-
-
-
     footer .right {
         width: 600px;
         height: 60px;
         display: flex;
         flex-direction: row;
     }
-
     footer .right select {
         width: 50%;
         height: 100%;
@@ -1798,36 +1767,29 @@ a {
     select {
         display: none;
     }
-
     footer .right select:active {
         border: none;
     }
-
     footer .right select option {
         width: 100%;
         padding: 0 10px;
     }
-
     footer .right select a {
         font-size: 12pt;
     }
-
     footer #lottehotel {
         display: none;
     }
-
     .sns img {
         width: 24px;
         height: 20px;
     }
-
     .sns_hire {
         gap: 30px;
         padding: 0 30px;
         display: flex;
         align-items: center;
     }
-
     .foot.active footer {
         transform: translateY(-158px);
     }

@@ -125,7 +125,7 @@
     font-size: 12pt;
 }
 #left ul li {
-    padding: 0 20px 20px 20px;
+    padding: 0 30px 30px 30px;
     width: 100%;
     height: 25%;
     display: flex;
@@ -137,6 +137,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 15px 30px 30px 30px;
 }
 .title h2 {
     width: 100px;
@@ -1767,7 +1768,15 @@
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (min-width:360px) and (max-width:640px) {
+
+    h2{
+        font-size: 16pt;
+    }
+
+    a{
+        font-size: 12pt;
+    }
 
     .container02{
         display: none;
@@ -1827,7 +1836,7 @@
     }
 
     .card.swiper-slide, .card.swiper-slide-active {
-        height: 650px;
+        height: calc(100vh - 200px);
     }
 
     .swiper .banner {
@@ -1841,7 +1850,7 @@
 
     .swiper-wrapper {
         width: 100%;
-        height: 59.4444vw;
+        height: 80vh;
         margin: 0 auto;
     }
 
@@ -1906,6 +1915,7 @@
     }
     .sec01 {
         position: relative;
+        padding: 0;
     }
     .sec01::before {
         background: #fff;

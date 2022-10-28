@@ -29,13 +29,14 @@ $(document).ready(function(){
         }
     });
 
-    $("li.index").show();
-    $("button.p").click(function(){
-        $(this).addClasss("on").siblings().removeclass("on");
-        var idx = $(this).index();
-        $("li.index").eq(index).stop(true).fadeIn(500)
-        siblings().fadeOut(200);
 
-    });
     
+    $(".num a").click(function () {
+        var num = Number($(this).text() - 1);
+        $(this).addClass("on").siblings().removeClass("on");
+        $(".notice section .post > ul").filter(":visible").stop(true).fadeOut("instant").end()
+        .eq(num).stop(true).fadeIn("instant");
+    });
+    $(".num a").addClass("on").add(".note > ul:first").show();
+   
 });
