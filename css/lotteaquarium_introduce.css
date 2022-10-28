@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NotoSans-Light';
+    src: url(/aquarium/fonts/NotoSans-Light.ttf) format('ttf');
+}
+
+@font-face {
+    font-family:'NotoSans-Bold' ;
+    src: url(/aquarium/fonts/NotoSans-Bold.ttf) format('ttf');
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'NotoSans-Bold';
+}
+
+.div_1{
+    width: 1440px;
+    height: calc(100vh - 200px);
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.div_01{
+    width: 1440px;
+    height: calc(100vh - 200px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    gap:120px ;
+}
+
+
+
+section div{
+    width: 560px;
+    height:720px;
+    padding: 0 30px ;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}
+
+section div.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+section div img{
+    width: 350px;
+    height: 310px;
+}
+
+section div .text p{
+    margin: 0;
+    width: 450px;
+    text-align: justify;
+    font-size: 16pt;
+    line-height: 25pt;
+}
+
+section div .text h3{
+    margin: 0;
+    font-size: 25pt;
+}
+
+section div .text #subject{
+    margin: 10px 0;
+    font-size: 35pt;
+    line-height: 30pt;
+    color: orange;
+}
+
+.div_01{
+    width: 760px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.div_01_1, .div_02_1, .div_03_1{
+    width: 760px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.button1, .button2, .button3, .illust{
+    /* .div.div_01_1_1~ .div.div_03_1_2 */
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div a{
+    font-size: 30pt;
+    font-family: 'NotoSans-Bold';
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.div a.on{
+    color: #000;
+    opacity: 1;
+}
+
+
+
+.div button{
+    border: none;
+    font-size: 30pt;
+}
+
+button.div.button1.p_01{
+    color: orange;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 135.png);
+}
+
+button.div.button1.p_03{
+    color: beige;
+    background: url(/aquarium/image//lotteauqarium/Frame\ 136.png);
+}
+
+button.div.button2.p_02{
+    color: orange;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 137.png);
+}
+
+button.div.button3.p_01{
+    color: #fff;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 138.png);
+}
+
+button.div.button3.p_03{
+    color: green;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 139.png);
+}
+
+.div .con{
+    position: absolute;
+    left:0 ;
+    border-radius: 100px;
+    width: 760px;
+    height: 680px;
+    padding: 60px 70px;
+    display: none;
+    flex-direction: column;
+    line-height: 22pt;
+}
+
+.con button{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    gap: 10px;
+}
+
+.con span{
+    font-size: 50pt;
+}
+
+.div .con h1{
+    font-size: 40pt;
+}
+
+.div .con h3{
+    font-size: 20pt;
+}
+
+.fade1{
+    
+    position: absolute;
+    top: 20px;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 135.png);
+    background-size: 100% 100%;
+    z-index: 50;
+    color: #fff;
+}
+
+.fade1 h1{
+    color: orange;
+}
+
+.fade2{
+    
+    position: absolute;
+    top: 20px;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 136.png);
+    background-size: 100% 100%;
+    z-index: 50;
+    color: #fff;
+}
+
+/* .fade2 h1{
+    color: ;
+} */
+
+.fade3{
+    
+    position: absolute;
+    top: 20px;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 137.png);
+    background-size: 100% 100%;
+    z-index: 50;
+    color: #fff;
+}
+
+.fade3 h1{
+    color: orange;
+}
+
+.fade4{
+    
+    position: absolute;
+    top: 20px;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 138.png);
+    background-size: 100% 100%;
+    z-index: 50;
+    color: #fff;
+}
+
+/* .fade4 h1{
+    color: ;
+} */
+
+.fade5{
+    
+    position: absolute;
+    top: 20px;
+    background-color: #000;
+    background: url(/aquarium/image/lotteauqarium/Frame\ 139.png);
+    background-size: 100% 100%;
+    z-index: 50;
+    color: #fff;
+}
+.fade5 h1{
+    color: green;
+}
+
+

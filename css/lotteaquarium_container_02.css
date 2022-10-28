@@ -1,0 +1,125 @@
+.content {
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.5s;
+    background: #fff;
+}
+
+.content.active {
+    width: 75%;
+    padding: 10px;
+    overflow: hidden;  
+}
+
+.tab {
+    width: 90px;
+    height: 100%;
+    border-radius: 50px;
+    /* border-inline: 1px solid #999; */
+    text-align: center;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+    border-top: none;
+    border-bottom: none;
+    font-size: 12pt;
+    transform: translateX(0);
+    transition: all 0.5s;
+    background: #fff;
+}
+
+.content .inner_2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+}
+
+ul#park{
+    border-radius: 0 0 50px 50px;
+}
+
+ ul#cost {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.a_ticket_03{
+    width: 20%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.a_ticket_03 a{
+    text-align: center;
+}
+
+.a_ticket_03 span{
+    font-size: 80px;
+}
+
+.a_ticket_03_info{
+    width: 80%;
+    height: 100%;
+}
+
+.a03_info .text{
+    border-bottom: 1px solid #000;
+}
+
+.a03_info .text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.a03_info_warning{
+    padding: 20px 0;
+}
+.a03_info_warning li{
+    padding: 5px 0;
+}
+
+li.index .metro{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-top: 1px solid #000;
+}
+
+li.index.bus{
+    display: none;
+}
+
+button.p_01, button.p_02, button.p_03, button.p_04{
+    border: none;
+    background: none;
+    font-size: 20pt;
+}
+
+@media screen and (min-width:1440px) {
+    
+
+}
+
+
+@media screen and (max-width:640px) and (max-height:1136px) {
+    .container02 {
+        display: none;
+    }
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <meta charset="UTF-8">
+    <title>롯데월드 아쿠아리움</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/aquarium/css/lotteaquarium_aquarist.css">
+    <link rel="stylesheet" type="text/css" href="/aquarium/css/lotteaquarium_menu.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <script src="/aquarium/js/jquery-3.6.1.min.js"></script>
+    <script src="/aquarium/js/lotteaquarium_menu.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#con1 li a.p1").click(function () {
+                $(".con1_inner_p1").toggleClass("active");
+            });
+            $("#con1 li a.p2").click(function () {
+                $(".con1_inner_p2").toggleClass("active");
+            });
+            $("#con1 li a.p3").click(function () {
+                $(".con1_inner_p3").toggleClass("active");
+            });
+            $("#con1 li a.p4").click(function () {
+                $(".con1_inner_p4").toggleClass("active");
+            });
+            $("#con1 li a.p5").click(function () {
+                $(".con1_inner_p5").toggleClass("active");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <button>
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+            <span>MENU</span>
+        </button>
+        <div id="logo">
+            <a href="/aquarium/html/lotteaquarium.html">
+                <img src="/aquarium/image/lotteauqarium/Asset_5.png" alt="img">
+                <strong>LOTTEWORLD AQUARIUM</strong>
+            </a>
+        </div>
+        <div class="language">
+            <a href="#">KR</a>
+            <p>|</p>
+            <a href="#">EN</a>
+        </div>
+
+    </header>
+    <div class="inner">
+        <nav class="nav">
+            <div class="global_01">
+                <div class="inner">
+                    <div class="platform">
+                        <a href="#"><span class="material-symbols-outlined">
+                            computer
+                            </span>
+                            <p>PC</p>
+                        </a>
+                        <a href="#"><span class="material-symbols-outlined">
+                            smartphone
+                            </span>
+                            <p>MOBILE</p>
+                        </a>
+                    </div>
+                    <div class="brands_nav">
+                        <h2>LOTTE WORLD<br>BRANDS</h2>
+                        <a href="#">CLICK HERE</a>
+                    </div>
+                    <div class="a_ticket_01">
+                        <a href="#"><span class="material-symbols-outlined">
+                                confirmation_number
+                            </span>
+                            <h2>온라인 예매</h2>
+                        </a>
+                        <a href="#"><span class="material-symbols-outlined">
+                                task
+                            </span>
+                            <h2>예매 확인</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="global_02">
+                <nav>
+                    <ul>
+                        <li>
+                            <h2>아쿠아리움소개</h2>
+                        </li>
+                        <li><a href="/aquarium/html/lotteaquarium_introduce.html">아쿠아리움 소개</a></li>
+                        <li><a href="/aquarium/html/lotteaquarium_notice.html">뉴스/공지</a></li>
+                        <li><a href="#">층별 안내</a></li>
+                        <li><a href="#">전시생물 소개</a></li>
+                        <li><a href="#">아쿠아리움 사람들</a></li>
+                        <li><a href="#">제휴/유관시설</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <h2>프로그램 / 이벤트</h2>
+                        </li>
+                        <li><a href="#">프로그램</a></li>
+                        <li><a href="/aquarium/html/lotteaquarium_aquarist.html">아쿠아리스트가 궁금해요</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">단체 프로그램 안내</a></li>
+                        <li><a href="#">기업행사/제휴안내</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <h2>이용안내</h2>
+                        </li>
+                        <li><a href="#">운영시간</a></li>
+                        <li><a href="#">이용요금</a></li>
+                        <li><a href="#">할인혜택</a></li>
+                        <li><a href="#">마린프렌즈</a></li>
+                        <li><a href="#">카페/기프트샵/포토</a></li>
+                        <li><a href="#">교통/주차</a></li>
+                        <li><a href="#">롯데월드 카드혜택</a></li>
+
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <h2>고객의 소리</h2>
+                        </li>
+                        <li><a href="#">자주 받는 질문</a></li>
+                        <li><a href="#">문의사항</a></li>
+                        <li><a href="#">유실물 센터</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+        <div class="notice">
+
+            <section class="note">
+                <h2>아쿠아리스트가 되려면</h2>
+                <div class="post">
+                    <ul id="con1">
+                        <li><a href="#" class="p1">
+                                <p>1</p>
+                                <p>아쿠아리스트가 하는 일은 무엇인가요?</p>
+                            </a></li>
+                        <li>
+                            <ul class="c con1_inner_p1">
+                                <li>
+                                    <p><strong>[답변내용]</strong></p>
+                                    <p><strong>아쿠아리스트는 수중에 사는 생물들이 아쿠아리움이라는 인공적인 환경에서 건강하게 살 수 있도록 돌보아 주고 관리하는 사람입니다.</strong>
+                                        <br>그렇기 때문에 각각의 생물의 생태와 습성을 고려하여 원하는 환경을 만들어 주고, 건강하게 살 수 있도록 수조청결을 관리하며 영양이 풍부한
+                                        먹이를 제공합니다.
+                                        <br>또한 학술자료와 관련서적을 통하여 끊임없이 생물에 대한 정보를 수집하고, 멸종 위기에 놓인 해양생물의 서식 환경과 멸종 위기종 보존 및
+                                        번식에 관하여 연구합니다.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="p2">
+                                <p>2</p>
+                                <p>아쿠아리스트가 되려면 어떻게 해야하나요?</p>
+                            </a></li>
+                        <li>
+                            <ul class="c con1_inner_p2">
+                                <li>
+                                    <p><strong>[답변내용]</strong>
+                                    <p><strong>아쿠아리스트는 우선 생물을 사랑하는 마음을 가져야하며, 수산생물에 대한 전문 지식이 필요합니다.</strong>
+                                        <br>또한 해양 관련 학과를 나오면 도움이 많이되며, 이러한 기술적인 부분이나 정신적 소양도 중요하고
+                                        <br>무엇보다 현장에서 직접 몸으로 부딪히며 일을 하기 때문에 체력이 기본이 되어야 합니다.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="p3">
+                                <p>3</p>
+                                <p>아쿠아리스트가 되려면 관련 학과나 대학, 전공은 어느 것이 있나요?</p>
+                            </a>
+                        </li>
+                        <li>
+                            <ul class="c con1_inner_p3">
+                                <li>
+                                    <p><strong>[답변내용]</strong></p>
+                                    <p>
+                                        <strong>전공으로는 물고기의 생태와 번식을 공부 할 수 있는 수산생물 양식학과, 자원생물학과, 생물공학과 등이 있고
+                                        <br>물고기의 병을 진단하고 치료방법을 공부할 수 있는 수산생명의학과가 있습니다.</strong>
+                                        <br>해양 관련 학과가 있는 대학교는 서울대, 부경대, 선문대, 인하대, 군산대, 순펀향대, 충남대, 전남대, 경상대, 제주대,
+                                        한국해양대, 강릉대 등이 있습니다.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#" class="p4">
+                                <p>4</p>
+                                <p>아쿠아리스트에게 필요한 자격증은 어떤 것이 있나요?</p>
+                            </a></li>
+                        <li>
+                            <ul class="c con1_inner_p4">
+                                <li>
+                                    <p><strong>[답변내용]</strong></p>
+                                        
+                                    <p><strong>첫번째로 가장 필수적인 것은 해양생물을 사랑하는 마음입니다.</strong>
+                                        <br>물속에서 생물을 관찰하고 청결함을 유지하기 위한 청소롤 하려면 가장 기본적인 스쿠버다이빙 자격증이 필요합니다.
+                                        <br>이외에도 해양생물들이 살아가는데 수질에 이상은 없는지 정밀검사를 할 수 있는 수질환경기사, 
+                                        <br>수산생물번식과 종을 연구하는데 기여가 되는 수산양식기사,
+                                        <br>어류가 병에 걸렸을 경우 그 원인을 분석하고 치료하는 수산질병관리사 등이 있습니다.</p>
+                                    
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="p5">
+                                <p>5</p>
+                                <p>아쿠아리스트의 근무환경은 어떤가요?</p>
+                            </a></li>
+                        <li>
+                            <ul class="c con1_inner_p5">
+                                <li>
+                                    <p><strong>[답변내용]</strong></p>
+                                    <p><strong>일반 회사원과 달리 아쿠아리스트는 책상에만 앉아서 근무를 하지 않습니다.
+                                        <br><br>직접 현장에서 몸으로 생물들과 접하며 담당 수조에서 일어나는 모든 일들을 관리 및 체크합니다.</strong>
+                                        <br>따라서, 일반 아마추어 애호가들과 달리 몸이 힘들거나 아파도, 어렵거나 두려울 때에도 담당사는 생물들을 보살펴야할 의무가 있습니다.
+                                        <br>그렇기 때문에 지치지 않는 체력과 담당생물에 대한 전문지식을 겸비해야 합니다.
+                                        <br>또한 기본적으로 전기, 펌프, 배관, 사무 등의 업무도 알고있으면 도움이 됩니다.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul id="con2">
+                        <li><a href="#">
+                                <p>2020-04-08</p>
+                                <p>공지</p>
+                                <p>롯데월드 아쿠아리움 코로나19 예방 및 방역 활동 안내</p>
+                            </a></li>
+                    </ul>
+                </div>
+                
+            </section>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="a_ticket_02">
+            <div class="ticket_left">
+                <p>입장마감까지 <strong>00시 00분 00초</strong> 남음
+                </p>
+            </div>
+            <div class="ticket_right">
+                <a href="#"><span class="material-symbols-outlined">
+                        confirmation_number
+                    </span>
+                    <h2>온라인 예매</h2>
+                </a>
+                <a href="#"><span class="material-symbols-outlined">
+                        task
+                    </span>
+                    <h2>예매 확인</h2>
+                </a>
+            </div>
+        </div>
+        <div class="footer_inner">
+            <ul>
+                <li><a href=#>아쿠아리움 소개</a><a href="#">사이트맵</a><a href="#">이용약관</a><a href="#">개인정보처리방침</a>
+                    <a href="#">영상정보처리 기기운영/관리방침</a><a href="#">그룹PR</a>
+                </li>
+                <li>
+                    <p>서울특별시 송파구 올림픽로300</p>
+                    <p>대표자 | 최홍훈</p>
+                    <p>전화 | 1661-2000</p>
+                    <p>전자우편주소 | happylotteworld@lotte.net</p>
+                </li>
+                <li>
+                    <p>사업자등록번호 | 230-85-02649</p>
+                    <p>통신판매업신고번호 | 송파 제1208호</p>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div class="left">
+                <button><span class="material-symbols-outlined">
+                        swap_vert
+                    </span></button>
+                <p>CopyRight 2022 LOTTEWORLD. ALL Rights Reserved</p>
+                <div class="sns">
+                    <a href="#"><img src="/aquarium/image/lotteauqarium/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="/aquarium/image/lotteauqarium/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#" role="button" id="lottehotel">
+                    <div class="text_wrap">
+                        <P id="lotte">LOTTE</P>
+                        <P id="hotel">hotel & resorts
+                    </div>
+                </a>
+                <select title="계열사 사이트 바로가기">
+                    <option>롯데그룹</option>
+                    <option>L.POINT</option>
+                    <option>롯데그룹채용</option>
+                    <option>롯데제과</option>
+                    <option>- 빼빼로</option>
+                    <option>- 헬스원</option>
+                    <option>롯데칠성음료</option>
+                    <option>- 롯데칠성몰</option>
+                    <option>롯데리아</option>
+                    <option>- 롯데리아몰</option>
+                    <option>엔제리너스</option>
+                    <option>- 엔제리너스몰</option>
+                    <option>나뚜루</option>
+                    <option>크리스피크림도넛</option>
+                    <option>롯데푸드</option>
+                    <option>- 파스퇴르</option>
+                    <option>- 파스퇴르몰</option>
+                    <option>- 파스퇴르아이</option>
+                    <option>- 쉐푸드</option>
+                    <option>- 엔네이처</option>
+                    <option>- 롯데비엔나</option>
+                    <option>- 키스틱</option>
+                    <option>- 의성마늘햄</option>
+                    <option>- WINE</option>
+                    <option>롯데아사히주류</option>
+                    <option>롯데칠성주류</option>
+                    <option>롯데백화점</option>
+                    <option>- 엘롯데</option>
+                    <option>- 영플라자</option>
+                    <option>- 프리미엄아울렛</option>
+                    <option>- 롯데아울렛</option>
+                    <option>- 상품본부</option>
+                    <option>에비뉴엘</option>
+                    <option>롯데마트</option>
+                    <option>- 롯데마트 홍보</option>
+                    <option>토이저러스</option>
+                    <option>롯데슈퍼</option>
+                    <option>롯데빅마켓</option>
+                    <option>롯데시네마</option>
+                    <option>롯데홈쇼핑</option>
+                    <option>코리아세븐</option>
+                    <option>유니클로</option>
+                    <option>무인양품</option>
+                    <option>롯데상사</option>
+                    <option>롯데닷컴</option>
+                    <option>롯데유통사업본부</option>
+                    <option>샤롯데씨어터</option>
+                    <option>H&B(롭스)</option>
+                    <option>롯데피트인</option>
+                    <option>롯데호텔</option>
+                    <option>롯데면세점</option>
+                    <option>롯데인터넷면세점</option>
+                    <option>롯데월드</option>
+                    <option>- 워터파크</option>
+                    <option>- 아쿠아리움</option>
+                    <option>롯데물산</option>
+                    <option>롯데월드타워&몰</option>
+                    <option>롯데제이티비</option>
+                    <option>롯데손해보험</option>
+                    <option>- 롯데하우머치</option>
+                    <option>롯데카드</option>
+                    <option>롯데캐피탈</option>
+                    <option>롯데건설</option>
+                    <option>- 롯데캐슬</option>
+                    <option>한국후지필름</option>
+                    <option>- 후지필름쇼핑몰</option>
+                    <option>롯데알미늄</option>
+                    <option>- 롯데이라이프</option>
+                    <option>롯데케미칼</option>
+                    <option>롯데엠시시</option>
+                    <option>캐논코리아 비즈니스</option>
+                    <option>솔루션</option>
+                    <option>롯데기공</option>
+                    <option>롯데인재개발원</option>
+                    <option>사이버 인재개발원</option>
+                    <option>롯데정보통신</option>
+                    <option>롯데자이언츠</option>
+                    <option>롯데스카이힐C.C</option>
+                    <option>롯데리조트부여</option>
+                    <option>롯데리조트제주</option>
+                    <option>롯데리조트속초</option>
+                    <option>대홍기획</option>
+                    <option>마이비</option>
+                    <option>롯데중앙연구소</option>
+                    <option>롯데환경경영</option>
+                    <option>롯데로지스</option>
+                    <option>롯데재단</option>
+                    <option>롯데렌터카</option>
+                    <option>롯데콘서트홀</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

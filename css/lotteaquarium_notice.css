@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NotoSans-Light';
+    src: url(/aquarium/fonts/NotoSans-Light.ttf) format('ttf');
+}
+
+
+
+
+.notice {
+    width: 1440px;
+    height: calc(81.06vh);
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.notice .label {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: none; */
+    gap: 20px;
+}
+
+.notice .label form {
+    margin: 0;
+    padding: 0;
+}
+
+.notice .label form, .label fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.notice .label input {
+    width: 400px;
+
+}
+
+.notice .label input, .label select {
+    height: 50px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000;
+    font-size: 16pt;
+}
+
+.notice h2 {
+    font-size: 20pt;
+    margin: 0;
+}
+
+.notice section {
+    width: 100%;
+    height: 785px;
+    padding: 50px 50px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.notice section .post {
+    position: relative;
+    width: 100%;
+    height: 510px;
+}
+
+
+.notice section .post ul {
+    position: absolute;
+    width: 100%;
+    height: 502px;
+}
+.notice section .post ul li a {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 16pt;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.notice #con2 {
+    display: none;
+}
+
+.notice .num {
+    position: absolute;
+    right: 0px;
+    bottom: 180px;
+    width: 100%;
+    height: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice .num a {
+    font-size: 16pt;
+    color: #000;
+}
+
+.notice .num a.on {
+    border-bottom: 1px solid #ff9900;
+}
