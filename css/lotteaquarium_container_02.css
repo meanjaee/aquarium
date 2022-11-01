@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url(/aquarium/fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url(/aquarium/fonts/NotoSans-Light.ttf);
+}
+
+.content {
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.5s;
+    background: #fff;
+}
+
+.content.active {
+    width: 75%;
+    padding: 30px;
+    overflow: hidden;  
+}
+
+.content button{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.tab {
+    width: 90px;
+    height: 100%;
+    border-radius: 50px;
+    /* border-inline: 1px solid #999; */
+    text-align: center;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+    border-top: none;
+    border-bottom: none;
+    font-size: 12pt;
+    transform: translateX(0);
+    transition: all 0.5s;
+    background: #fff;
+}
+
+.content .inner_2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.content h1{
+    margin: 21.44px 0 0 0;
+}
+.inner_2_01{
+    display: flex;
+    flex-direction: column; 
+}
+.inner_2_01 h2{
+    margin: 35px 0 0;
+}
+
+#traffic {
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+.index ul{
+    border-top: 1px solid #000;
+}
+.index li{
+    margin: 10px;
+}
+.index li p{
+    margin: 0;
+}
+
+
+ ul#cost {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.a_ticket_03{
+    width: 20%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.a_ticket_03 a{
+    text-align: center;
+}
+
+.a_ticket_03 span{
+    font-size: 80px;
+}
+
+.a_ticket_03_info{
+    width: 80%;
+    height: 100%;
+}
+
+.a03_info .text{
+    border-bottom: 1px solid #000;
+}
+
+.a03_info .text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.a03_info_warning{
+    padding: 20px 0;
+}
+.a03_info_warning li{
+    padding: 5px 0;
+}
+
+.span{
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+}
+
+.map{
+    width: 90%;
+    height: 90%;
+}
+.b1{
+    width: 100%;
+    height: 100%;
+    background: url(/aquarium/image/lotteauqarium/b1.png);
+    background-repeat: no-repeat;
+    background-position: center 60px;
+    background-size: 95%;
+}
+.map .b2{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: url(/aquarium/image/lotteauqarium/b1.png);
+    background-repeat: no-repeat;
+    background-position: center 60px;
+    background-size: 95%;
+}
+
+li.index .metro{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-top: 1px solid #000;
+}
+
+li.index.bus{
+    display: none;
+}
+
+.index ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+button.p_01, button.p_02, button.p_03, button.p_04{
+    border: none;
+    background: none;
+    font-size: 20pt;
+}
+
+.n_03 ul{
+    padding: 30px;
+}
+.n_03 .subject strong{
+    margin: 21.44px 0;
+    font-size: 27pt;
+}
+.n_03 ul li button{
+    border: none;
+    background: none;
+}
+.n_03 .box{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.p-1, .p-2, .p-3{
+    width: 25%;
+    height: 60vh;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-2, .p-3{
+    display:none;
+}
+
+@media screen and (min-width:1440px) {
+    
+
+}
+
+
+@media screen and (max-width:640px) and (max-height:1136px) {
+    .container02 {
+        display: none;
+    }
+}
