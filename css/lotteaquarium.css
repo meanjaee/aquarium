@@ -343,14 +343,7 @@
 
 
 
-    .content .inner_2 #park {
-        width: 100%;
-        height: 100%;
-        padding: 0 100px;
-        padding-bottom: 20px;
-        overflow: hidden;
-        border: 1px solid #000;
-    }
+
 
     .sec {
         height: calc(100ch - 200px);
@@ -674,7 +667,8 @@
     }
 
 }
-
+@media screen and (min-width:360px) and (max-width:1440px) {
+    
 @media screen and (min-width:890px) and (max-width:1440px) {
 
     .swiper {
@@ -2285,6 +2279,8 @@
     .sec05 .inner h2 {
         display: flex;
     }
+
+}
 
 }
 

@@ -5,19 +5,6 @@
     src: url(/aquarium/fonts/NotoSans-Light.ttf) format('ttf');
 }
 
-
-
-
-.notice {
-    width: 1440px;
-    height: calc(81.06vh);
-    margin: 0 auto;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px;
-}
-
 .notice .label {
     width: 100%;
     height: 100px;
@@ -27,23 +14,18 @@
     /* flex-direction: none; */
     gap: 20px;
 }
-
 .notice .label form {
     margin: 0;
     padding: 0;
 }
-
 .notice .label form, .label fieldset {
     margin: 0;
     padding: 0;
     border: none;
 }
-
 .notice .label input {
     width: 400px;
-
 }
-
 .notice .label input, .label select {
     height: 50px;
     padding: 10px;
@@ -53,12 +35,10 @@
     border-bottom: 2px solid #000;
     font-size: 16pt;
 }
-
 .notice h2 {
     font-size: 20pt;
     margin: 0;
 }
-
 .notice section {
     width: 100%;
     height: 785px;
@@ -66,16 +46,12 @@
     gap: 30px;
     display: flex;
     flex-direction: column;
-
 }
-
 .notice section .post {
     position: relative;
     width: 100%;
     height: 510px;
 }
-
-
 .notice section .post ul {
     position: absolute;
     width: 100%;
@@ -89,11 +65,9 @@
     color: #000;
     border-bottom: 1px solid #000;
 }
-
 .notice #con2 {
     display: none;
 }
-
 .notice .num {
     position: absolute;
     right: 0px;
@@ -106,12 +80,43 @@
     justify-content: center;
     align-items: center;
 }
-
 .notice .num a {
     font-size: 16pt;
     color: #000;
 }
-
 .notice .num a.on {
     border-bottom: 1px solid #ff9900;
+}
+
+@media screen and (min-width:1440px) {
+.notice {
+    width: 1440px;
+    height: calc(81.06vh);
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+}
+
+@media screen and (min-width:360px) and (max-width:1440px) {
+    .notice {
+        width: 100vw;
+        height: calc(81.06vh);
+        margin: 0 auto;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+    }
+
+    .notice .label{
+        display: none;
+    }
+    @media screen and (min-width:360px) and (max-width:890px) {
+        
+        
+    }
 }
