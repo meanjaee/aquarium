@@ -57,13 +57,38 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background: #fff;
 }
-
-ul#park{
-    border-radius: 0 0 50px 50px;
+.content h1{
+    margin: 21.44px 0;
 }
+.inner_2_01{
+    display: flex;
+    flex-direction: column; 
+}
+.inner_2_01 h2{
+    margin: 35px 0 20px 0;
+}
+
+#traffic {
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+.index ul{
+    border-top: 1px solid #000;
+}
+.index li{
+    margin: 10px;
+}
+.index li p{
+    margin: 0;
+}
+
 
  ul#cost {
     display: flex;
@@ -122,6 +147,13 @@ li.index.bus{
     display: none;
 }
 
+.index ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 button.p_01, button.p_02, button.p_03, button.p_04{
     border: none;
     background: none;
@@ -132,8 +164,8 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     padding: 30px;
 }
 .n_03 .subject strong{
-    padding: 10px;
-    font-size: 20pt;
+    margin: 21.44px 0;
+    font-size: 27pt;
 }
 .n_03 ul li button{
     border: none;
@@ -150,6 +182,10 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     width: 25%;
     height: 60vh;
     border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .p-2, .p-3{
     display:none;
