@@ -60,14 +60,14 @@
     background: #fff;
 }
 .content h1{
-    margin: 21.44px 0;
+    margin: 21.44px 0 0 0;
 }
 .inner_2_01{
     display: flex;
     flex-direction: column; 
 }
 .inner_2_01 h2{
-    margin: 35px 0 20px 0;
+    margin: 35px 0 0;
 }
 
 #traffic {
@@ -134,6 +134,33 @@
 }
 .a03_info_warning li{
     padding: 5px 0;
+}
+
+.span{
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+}
+
+.map{
+    width: 90%;
+    height: 90%;
+}
+.b1{
+    width: 100%;
+    height: 100%;
+    background: url(/aquarium/image/lotteauqarium/b1.png);
+    background-repeat: no-repeat;
+    background-position: center 60px;
+    background-size: 95%;
+}
+.map .b2{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: url(/aquarium/image/lotteauqarium/b1.png);
+    background-repeat: no-repeat;
+    background-position: center 60px;
+    background-size: 95%;
 }
 
 li.index .metro{
