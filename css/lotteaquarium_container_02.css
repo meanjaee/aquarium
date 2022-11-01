@@ -204,17 +204,33 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     justify-content: space-between;
     gap: 20px;
 }
+.n_03 img{
+    padding: 10px;
+}
 .p-1, .p-2, .p-3{
     width: 25%;
     height: 60vh;
     border: 1px solid #000;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .p-2, .p-3{
     display:none;
+}
+
+.p-1 p{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.p-1 h2{
+    font-size: 16pt;
+    
 }
 
 @media screen and (min-width:1440px) {
