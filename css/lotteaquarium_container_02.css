@@ -186,23 +186,13 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     font-size: 20pt;
 }
 
-.n_03 ul{
-    padding: 30px;
-}
-.n_03 .subject strong{
-    margin: 21.44px 0;
-    font-size: 27pt;
-}
-.n_03 ul li button{
-    border: none;
-    background: none;
-}
 .n_03 .box{
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
+    padding: 20px 0;
 }
 .n_03 img{
     padding: 10px;
