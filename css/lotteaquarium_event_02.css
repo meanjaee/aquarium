@@ -15,6 +15,10 @@
     font-family: 'NotoSans-Bold';
 }
 
+.banner{
+    background: #638350;
+}
+
 body {
         
     padding: 0;

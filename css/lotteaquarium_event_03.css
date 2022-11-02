@@ -24,6 +24,9 @@ body {
 
 }
  
+.banner{
+    background: #233fbb;
+}
 .inner_2{
     width: 1440px;
     height: calc(100vh - 200px);

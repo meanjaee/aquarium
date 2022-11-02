@@ -21,9 +21,12 @@ body {
     margin: 0;
     background-image: url(/aquarium/image/lotteauqarium/intro_background.png);
     background-size: cover;
-
 }
  
+.banner{
+    background:#ee9bee;
+}
+
 .inner_2{
     width: 1440px;
     height: calc(100vh - 200px);

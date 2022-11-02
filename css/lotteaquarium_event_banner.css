@@ -6,12 +6,10 @@
     margin: 0;
     margin-bottom: 10px;
     border-radius: 30px;
-    background: #638350;
     
 }
 
 .banner li h1,.banner li p,.banner li h2{
-    color: #fff ;
     line-height: 20px;
 }
 
