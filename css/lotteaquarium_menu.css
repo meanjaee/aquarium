@@ -205,12 +205,7 @@ a {
         font-size: 20pt;
     }
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        height: 100%;
-    }
+    
 
     header, footer {
         position: fixed;

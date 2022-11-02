@@ -8,6 +8,10 @@
 *{list-style-type: none;}
 
 
+#con1{
+    padding: 0 40px;
+}
+
 .notice {
     width: 1440px;
     height: calc(100vh - 200px);
