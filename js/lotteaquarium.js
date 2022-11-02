@@ -39,12 +39,23 @@ $(document).ready(function(){
 // 따로 분류해서 교통수단과 형제로 만들지 않는다.
 // 각 li가 .active를 만나면 보이게, 빠지면 안보이게 css 처리한다.
     
-    $(".num a").click(function () {
-        var num = Number($(this).text() - 1);
-        $(this).addClass("on").siblings().removeClass("on");
-        $(".notice section .post > ul").filter(":visible").stop(true).fadeOut("instant").end()
-        .eq(num).stop(true).fadeIn("instant");
+    $(".content.n_02 > .span > button").click(function() {
+        $(this).toggleClass('active').siblings().removeClass("active");
+    var num = $(this).index();
+    $("li.map").eq(num).toggleClass('active').siblings().removeClass("active");
     });
-    $(".num a").addClass("on").add(".note > ul:first").show();
-   
+    
+    $(".content.n_03 > .span > button").click(function() {
+        $(this).toggleClass('active').siblings().removeClass("active");
+    var num = $(this).index();
+    $("li.box").eq(num).toggleClass('active').siblings().removeClass("active");
+    });
+    
+    $(".content.n_04 > .span > button").click(function() {
+        $(this).toggleClass('active').siblings().removeClass("active");
+    var num = $(this).index();
+    $("div.inner_2_01 > li.index").eq(num).toggleClass('active').siblings().removeClass("active");
+    });
+
+    
 });
