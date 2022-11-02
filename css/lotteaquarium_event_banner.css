@@ -1,0 +1,35 @@
+.banner{
+    width: 100%;
+    height: 200px;
+    padding: 20px 50px; 
+    gap: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background: #638350;
+    
+}
+
+.banner li h1,.banner li p,.banner li h2{
+    color: #fff ;
+    line-height: 20px;
+}
+
+table caption {
+    display:none;
+}
+
+.sns_02{
+    margin: 5px;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.sns_02 img{
+    width:31.5px;
+    height: 30px;
+}
