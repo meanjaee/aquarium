@@ -116,7 +116,13 @@
         display: none;
     }
     @media screen and (min-width:360px) and (max-width:890px) {
-        
-        
+    .notice section .post ul li a{
+        display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 12pt;
+    color: #000;
+    border-bottom: 1px solid #000;
+    }
     }
 }

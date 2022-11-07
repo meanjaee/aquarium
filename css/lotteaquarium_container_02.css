@@ -84,6 +84,7 @@
     border-top: 1px solid #000;
     height: 100%;
     padding: 20px 0;
+    
 }
 .index li{
     margin: 10px;
@@ -117,10 +118,10 @@ li.index.bus ul li p:nth-child(1){
 li.index.bus .bus1{
     background-color: green;
 }
-li.index.bus .bus2{
+li.index.bus .bus3{
     background-color: red;
 }
-li.index.bus .bus3{
+li.index.bus .bus2{
     background-color: rgb(31, 100, 250);
 }
 li.index.bus .bus4{
@@ -208,7 +209,7 @@ li.index.bus ul li p{
     background: url(/aquarium/image/lotteauqarium/b2.png);
     background-repeat: no-repeat;
     background-position: center 30px;
-    background-size: 95%;
+    background-size: 80%;
 }
 
 .map.active{
