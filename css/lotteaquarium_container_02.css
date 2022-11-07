@@ -83,12 +83,53 @@
 .index ul{
     border-top: 1px solid #000;
     height: 100%;
+    padding: 20px 0;
 }
 .index li{
     margin: 10px;
 }
 .index li p{
     margin: 0;
+}
+
+li.index.bus ul{
+    display: flex;
+    justify-content: center;
+    padding:0;
+}
+
+li.index.bus ul li {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+li.index.bus ul li p:nth-child(1){
+    width: 150px;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+    gap:10px;
+    padding: 10px;
+}
+li.index.bus .bus1{
+    background-color: green;
+}
+li.index.bus .bus2{
+    background-color: red;
+}
+li.index.bus .bus3{
+    background-color: rgb(31, 100, 250);
+}
+li.index.bus .bus4{
+    background-color: rgb(146, 124, 1);
+}
+li.index.bus ul li p{
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
 }
 
 
@@ -175,29 +216,20 @@
 
 }
 
-li.index .metro{
+.index .metro{
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-top: 1px solid #000;
 }
 
-li.index.metro.active{
-    width: 100%;
-    height: 100%;
-}
-
-li.index.bus{
+.index{
     display: none;
 }
-
-.index ul li{
+.index.active{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
+    flex-direction: column;
 }
-
 button.p_01, button.p_02, button.p_03, button.p_04{
     border: none;
     background: none;
@@ -208,11 +240,13 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     display: none;
     width: 100%;
     height: 100%;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
     padding: 20px 0;
+}
+.n_03 .box.active{
+    display: flex;
 }
 .n_02 ul{
     height: 100%;
@@ -231,9 +265,8 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     align-items: center;
     text-align: center;
 }
-.p-2, .p-3{
-    display:none;
-}
+
+
 
 .p-1 p{
     display: flex;
@@ -254,6 +287,8 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     display: flex;
     justify-content: center;
 }
+
+
 
 @media screen and (min-width:1440px) {
     

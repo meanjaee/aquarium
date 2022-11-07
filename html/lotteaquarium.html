@@ -53,12 +53,12 @@
             <div class="global_01">
                 <div class="inner">
                     <div class="platform">
-                        <a href="#"><span class="material-symbols-outlined">
+                        <a href="#" class="pc"><span class="material-symbols-outlined">
                                 computer
                             </span>
                             <p>PC</p>
                         </a>
-                        <a href="#"><span class="material-symbols-outlined">
+                        <a href="#" class="mobile"><span class="material-symbols-outlined">
                                 smartphone
                             </span>
                             <p>MOBILE</p>
@@ -84,10 +84,8 @@
             </div>
             <div class="global_02">
                 <nav>
+                    <h2>아쿠아리움소개</h2>
                     <ul>
-                        <li>
-                            <h2>아쿠아리움소개</h2>
-                        </li>
                         <li><a href="/aquarium/html/lotteaquarium_introduce.html">아쿠아리움 소개</a></li>
                         <li><a href="/aquarium/html/lotteaquarium_notice.html">뉴스/공지</a></li>
                         <li><a href="#">층별 안내</a></li>
@@ -97,37 +95,30 @@
                     </ul>
                 </nav>
                 <nav>
+                    <h2>프로그램 / 이벤트</h2>
                     <ul>
-                        <li>
-                            <h2>프로그램 / 이벤트</h2>
-                        </li>
                         <li><a href="#">프로그램</a></li>
                         <li><a href="/aquarium/html/lotteaquarium_aquarist.html">아쿠아리스트가 궁금해요</a></li>
                         <li><a href="#">이벤트</a></li>
-                        <li><a href="/aquarium/html/lotteaquarium_promotion.html">이 달의 할인혜택</a></li>
                         <li><a href="#">단체 프로그램 안내</a></li>
                         <li><a href="#">기업행사/제휴안내</a></li>
                     </ul>
                 </nav>
                 <nav>
+                    <h2>이용안내</h2>
                     <ul>
-                        <li>
-                            <h2>이용안내</h2>
-                        </li>
                         <li><a href="#">운영시간</a></li>
                         <li><a href="#">이용요금</a></li>
+                        <li><a href="#">할인혜택</a></li>
                         <li><a href="#">마린프렌즈</a></li>
                         <li><a href="#">카페/기프트샵/포토</a></li>
                         <li><a href="#">교통/주차</a></li>
                         <li><a href="#">롯데월드 카드혜택</a></li>
-
                     </ul>
                 </nav>
                 <nav>
-                    <ul>
-                        <li>
-                            <h2>고객의 소리</h2>
-                        </li>
+                    <h2>고객의 소리</h2>
+                    <ul>    
                         <li><a href="#">자주 받는 질문</a></li>
                         <li><a href="#">문의사항</a></li>
                         <li><a href="#">유실물 센터</a></li>
@@ -324,7 +315,7 @@
                                 <button>생태설명</button>
                             </div>
                             <ul>
-                                <li class="box">
+                                <li class="box m-1 active">
                                     <a href="#" class="p-1 p_01">
                                         <img src="/aquarium/image/lotteauqarium/hospital.png" alt="hospital">
                                         <h2>해양동물<br>구조센터 체험</h2>
@@ -345,8 +336,8 @@
                                         <h2>스타트<br>마린 프렌즈</h2>
                                         <p>대상 : 전체<br>B2F 플레이존<br>참가인원 : 제한없음<br>운영시간<br>10시 30분~18시<br>마지막 타임<br>17시 30분<br>유료</p>
                                     </a>
-                                </li>
-                                <li class="box">
+                               </li>
+                                <li class="box m-2">
                                     <a href="#" class="p-2 p_01">
                                         <img src="/aquarium/image/lotteauqarium/Tent_.png" alt="tent">
                                     </a>
@@ -354,7 +345,7 @@
                                         <img src="/aquarium/image/lotteauqarium/fishbowl.png" alt="fishbowl">
                                     </a>
                                 </li>
-                                <li class="box">
+                                <li class="box m-3">
                                     <a href="#" class="p-3 p_01">
                                         <img src="/aquarium/image/lotteauqarium/diver.png" alt="diver">
                                     </a>
@@ -369,7 +360,8 @@
                         <div class="content n_04">
                                 <h1>주차/교통안내</h1>
                                 <div class="span">
-                                    <button class="active">대중교통</button>
+                                    <button class="active">지하철</button>
+                                    <button>버스</button>
                                     <button>승용차</button>
                                     <button>주차안내</button>
                                 </div>
@@ -404,26 +396,46 @@
                                                     <p>강변(2호선) → 잠실(2,8호선) (약 5분)</p>
                                                 </li>
                                             </ul>
-                                            <h2>버스</h2>
+                                            
+                                        </li>
+                                        <li class="index bus"><h2>버스</h2>
                                             <ul>
                                                 <li>
-                                                    <p>지선버스</p>
-                                                    <p>3217번, 3313번, 3314번, 3315번, 3317번, 3411번, 3414번, 4319번</p>
+                                                    <p class="bus1"><strong>G</strong><strong>지선버스</strong></p>
+                                                    <p><b>복정역 환승센터, 건대입구역 방면</b>3217번</p>
+                                                    <p><b>복정역 환승센터, 잠실동 방면</b>3313번</p>
+                                                    <p><b>장지동, 잠실동 방면</b>3314번</p>
+                                                    <p><b>장지동, 삼전동 방면</b>3315번</p>
+                                                    <p><b>마천동, 잠실동 방면</b>3317번</p>
+                                                    <p><b>강일동, 삼성동 방면</b>3411번</p>
+                                                    <p><b>오금동, 고속터미널 방면</b>3414번</p>
+                                                    <p><b>남태령역, 잠실역 방면</b>4319번</p>
+
                                                 </li>
                                                 <li>
-                                                    <p>광역버스</p>
-                                                    <p>1007-1번, 1100번, 1700번, 2000번, 6900번, 7007번, 8001번</p>
-                                                </li>
-                                                <li>
-                                                    <p>간선버스</p>
-                                                    <p>301번, 341번, 360번, 362번</p>
-                                                </li>
-                                                <li>
-                                                    <p>공항버스</p>
-                                                    <p>6000번, 6006번, 6705번, 6706A번</p>
+                                                    <p class="bus2"><strong>B</strong><strong>간선버스</strong></p>
+                                                    <p><b>장지동, 혜화동 방면</b>301번</p>
+                                                    <p><b>강일동, 우면동 방면</b>341번</p>
+                                                    <p><b>복정역, 여의도 방면</b>360번, 362번</p>
                                                 </li>
                                             </ul>
-                                        </li>
+                                            <ul>
+                                                <li>
+                                                    <p class="bus3"><strong>R</strong><strong>광역버스</strong></p>
+                                                    <p><b>수원, 수서역 방면</b>1007-1번</p>
+                                                    <p><b>오류동, 서울역 방면</b>1100번</p>
+                                                    <p><b>남양주, 역삼동 방면</b>1700번, 2000번</p>
+                                                    <p><b>수원, 용인, 수서역 방면</b>6900번</p>
+                                                    <p><b>남양주, 서초동 방면</b>7007번</p>
+                                                    <p><b>가평, 신사동 방면</b>8001번</p>
+                                                </li>
+                                                
+                                                <li>
+                                                    <p class="bus4"><strong>B</strong><strong>공항버스</strong></p>
+                                                    <p><b>김포공항 방면</b>6000번</p>
+                                                    <p><b>인천공항 T2 방면</b>6006번, 6705번(KAL)</p>
+                                                </li>
+                                            </ul></li>
                                         <li class="index automotive">
                                         </li>
                                         <li class="index parking">
@@ -441,16 +453,16 @@
                                     <a href="/aquarium/html/lotteaquarium_notice.html">공지사항 더보기</a>
                                 </li>
                                 <li class="sub"><a href="#">
-                                            <p>공지<br>롯데월드아쿠아리움 채팅상담 이용 안내</p>
-                                            <span>2022/10/31</span>   
-                                    </a></li>
-                                <li class="sub"><a href="#">
                                             <p>공지<br>개인정보처리방침 변경안내</p>
-                                            <span>2022/08/16</span>   
+                                            <p>2022/08/16</p>   
                                     </a></li>
                                 <li class="sub"><a href="#">
                                                 <p>공지<br>영상정보처리 기기운영/관리방침 변경안내</p>
-                                                <span>2022/08/04</span>
+                                                <p>2022/08/04</p>
+                                    </a></li>
+                                <li class="sub"><a href="#">
+                                                <p>공지<br>개인정보처리방침 변경안내</p>
+                                                <p>2022/04/18</p>
                                     </a></li>
                             </ul>
                         </div>

@@ -40,9 +40,9 @@ $(document).ready(function(){
 // 각 li가 .active를 만나면 보이게, 빠지면 안보이게 css 처리한다.
     
     $(".content.n_02 > .span > button").click(function() {
-        $(this).toggleClass('active').siblings().removeClass("active");
+        $(this).toggleClass('active').siblings().removeClass('active');
     var num = $(this).index();
-    $("li.map").eq(num).toggleClass('active').siblings().removeClass("active");
+    $('li.map').eq(num).toggleClass('active').siblings().removeClass('active');
     });
     
     $(".content.n_03 > .span > button").click(function() {
@@ -52,9 +52,9 @@ $(document).ready(function(){
     });
     
     $(".content.n_04 > .span > button").click(function() {
-        $(this).toggleClass('active').siblings().removeClass("active");
+        $(this).toggleClass('active').siblings().removeClass('active');
     var num = $(this).index();
-    $("div.inner_2_01 > li.index").eq(num).toggleClass('active').siblings().removeClass("active");
+    $(".inner_2_01 > li.index").eq(num).toggleClass('active').siblings().removeClass('active');
     });
 
     
