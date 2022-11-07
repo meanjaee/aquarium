@@ -1788,7 +1788,10 @@
 }
 
 @media screen and (min-width:360px) and (max-width:640px) {
-
+   
+    .swiper{
+        margin: 0;
+    }
     .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
         display: none;
     }
@@ -1796,6 +1799,9 @@
         display: none;
     }
     .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+        display: none;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-vertical{
         display: none;
     }
 
@@ -1863,7 +1869,8 @@
     }
 
     .card.swiper-slide, .card.swiper-slide-active {
-        height: calc(100vh - 200px);
+        height: 500px;
+        margin: 80px 0;
     }
 
     .swiper .banner {
