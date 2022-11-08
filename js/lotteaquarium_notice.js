@@ -7,6 +7,6 @@ $(document).ready(function () {
             $(".notice section .post > ul").filter(":visible").stop(true).fadeOut("instant").end()
                 .eq(num).stop(true).fadeIn("instant");
         });
-        $(".num a").addClass("on").add(".note > ul:first").show();
+        // $(".num a").addClass("on").add(".post > ul:nth=child(1)").show();
    
 });

@@ -139,3 +139,12 @@ ul.c li p{
 ul.c.active{
     height: 250px;
 }
+
+@media screen and (min-width:360px) and (max-width:1440px) {
+    .notice{
+        width: 100vw;
+    }
+    
+    
+    
+}

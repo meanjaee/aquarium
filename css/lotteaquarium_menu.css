@@ -43,6 +43,37 @@ a {
     height: 30px;
 }
 
+span{
+    color: #000;
+}
+
+.nav a, .nav h2, .nav span {
+    color: #000;
+}
+
+.global_02 h2 {
+    color: #000;
+}
+
+.nav a:hover{
+    color: orange;
+}
+
+.a_ticket_01 a:hover > span {
+    color: orange;
+}
+
+.a_ticket_01 a:hover > h2 {
+    color: orange;
+}
+
+.a_ticket_01 h2 {
+    color: #000;
+    transition: all 0.5s;
+    font-size: 20pt;
+    line-height: 0;
+}
+
 @media screen and (min-width:1440px) {
 
     body {
@@ -668,15 +699,7 @@ a {
         font-size: 20pt;
         line-height: 0;
     }
-
-    .a_ticket_01 a:hover > span {
-        color: orange;
-    }
-
-    .a_ticket_01 a:hover > h2 {
-        color: orange;
-    }
-
+    
     .global_02 {
         width: 100%;
         max-width: 1440px;
@@ -976,7 +999,7 @@ a {
     }
 
     a {
-        font-size: 16pt;
+        font-size: 12pt;
         color: #888;
         transition: all 0.5s;
     }
@@ -1000,9 +1023,7 @@ a {
         color: #fff;
     }
 
-    .nav a, .nav h2 {
-        color: #fff;
-    }
+    
     .global_01 {
         width: 100%;
     }
@@ -1043,11 +1064,8 @@ a {
         font-size: 60px;
     }
 
-
-
     .brands_nav {
-        padding: 10px;
-        gap: 10px;
+        display: none;
     }
 
     .brands_nav h1 {
@@ -1060,8 +1078,8 @@ a {
     }
 
     .a_ticket_01 span {
-        font-size: 80px;
-        color: #fff;
+        font-size: 60px;
+        color: #000;
         transition: all 0.5s;
 
     }
@@ -1076,18 +1094,17 @@ a {
     }
 
     .a_ticket_01 h2 {
-        color: #fff;
         transition: all 0.5s;
-        font-size: 20pt;
+        font-size: 16pt;
         line-height: 0;
     }
 
     .a_ticket_01 a:hover > span {
-        color: #fff;
+        color: orange;
     }
 
     .a_ticket_01 a:hover > h2 {
-        color: #fff;
+        color: orange;
     }
 
     .global_02 {
@@ -1113,8 +1130,7 @@ a {
     }
 
     .global_02 h2 {
-        color: #fff;
-        font-size: 20pt;
+        font-size: 12pt;
     }
 
     ul {
@@ -1495,7 +1511,7 @@ a {
     .a_ticket_01 h2 {
         color: #000;
         transition: all 0.5s;
-        font-size: 20pt;
+        font-size: 16pt;
         line-height: 0;
     }
     .a_ticket_01 a:hover > span {
@@ -1638,8 +1654,8 @@ a {
         transition: all 0.5s;
     }
     footer p {
-        font-size: 12pt;
-        line-height: 0;
+        font-size: 10pt;
+        
     }
     footer .left {
         width: 100%;

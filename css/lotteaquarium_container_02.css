@@ -133,6 +133,12 @@ li.index.bus ul li p{
     gap: 15px;
 }
 
+li.index.parking.active li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 
  ul#cost {
     display: flex;
