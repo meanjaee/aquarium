@@ -195,6 +195,7 @@
     z-index: 10;
 }
 #right h3 span {
+    font-size: 20pt;
     color: #ffa800;
 }
 #right a {
@@ -445,7 +446,7 @@
 
     .card1 {
         display: block;
-        background: #3b972f;
+        background: #DC1111;
         color: #fff;
         font-size: 16pt;
         position: relative;
@@ -456,7 +457,7 @@
 
     }
     .card1 a:hover {
-        color: #3b972fc5;
+        color: #DC1111;
     }
 
 
@@ -476,34 +477,36 @@
 
     .card2 {
         display: block;
-        background: #ffa800;
+        background: #19B000;
         font-size: 16pt;
-        color: #000;
+        color: #fff;
     }
     .card2 a {
-        color: #000;
+        color: #fff;
         font-size: 16pt;
-        border: 2px solid #000;
+        border: 2px solid #fff;
     }
     .card2 a:hover {
-        color: #ffa800;
-        background: #000;
+        color: #19B000;
+        background: #fff;
 
     }
 
 
     .card3 {
         display: block;
-        background: #DC1111;
+        background: #ffa800;
         font-size: 16pt;
-        color: #fff;
+        color: #000;
     }
     .card3 a {
-        border: 2px solid #fff;
+        color: #000;
+        border: 2px solid #000;
         font-size: 16pt;
     }
     .card3 a:hover {
-        color: #DC1111;
+        background: #000;
+        color: #ffa800;
     }
 
 

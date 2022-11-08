@@ -73,7 +73,7 @@ span{
 
 .a_ticket_01 h2 {
     color: #000;
-    transition: all 0.5s;
+    
     font-size: 20pt;
     line-height: 0;
 }
@@ -100,8 +100,8 @@ span{
 
     a {
         font-size: 16pt;
-        color: #888;
-        transition: all 0.5s;
+        color: #000;
+        
     }
 
     a:hover {
@@ -692,7 +692,7 @@ span{
     .a_ticket_01 span {
         font-size: 80px;
         color: #000;
-        transition: all 0.5s;
+        
 
     }
 
@@ -707,7 +707,7 @@ span{
 
     .a_ticket_01 h2 {
         color: #000;
-        transition: all 0.5s;
+        
         font-size: 20pt;
         line-height: 0;
     }
@@ -1095,8 +1095,7 @@ span{
     .a_ticket_01 span {
         font-size: 60px;
         color: #000;
-        transition: all 0.5s;
-
+        
     }
 
     .a_ticket_01 a {
@@ -1109,7 +1108,7 @@ span{
     }
 
     .a_ticket_01 h2 {
-        transition: all 0.5s;
+        
         font-size: 16pt;
         line-height: 0;
     }
@@ -1259,10 +1258,16 @@ span{
         z-index: 100;
         bottom: 60px;
         transform: translateY(0);
-        transition: all 0.5s;
         justify-content: space-between;
         align-items: center;
         color: #Fff;
+    }
+
+    .a_ticket_02 .ticket_right a:hover > .ticket_right span,.ticket_right h2{
+        color: orange;
+    }
+    #left .title a:hover{
+        color: orange;
     }
 
     .a_ticket_02 .ticket_left {

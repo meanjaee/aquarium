@@ -143,7 +143,7 @@ li.index.parking.active li{
  ul#cost {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    
 }
 
 .a_ticket_03{
@@ -164,12 +164,71 @@ li.index.parking.active li{
     font-size: 80px;
 }
 
-.a_ticket_03_info{
-    width: 80%;
-    height: 100%;
+.a_ticket_03 h2, span{
+    font-size: 16pt;
+    color: #000;
 }
 
-.a03_info .text{
+.a_ticket_03 a:hover > h2,
+.a_ticket_03 a.on > h2 {
+    color: orange;
+}
+
+.a_ticket_03 a:hover > span,
+.a_ticket_03 a.on > span {
+    color: orange;
+}
+
+
+.a_ticket_03_info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.a_ticket_03_info ul{
+    padding-left:20px;
+}
+
+.a_ticket_03_check{
+    padding: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.a_ticket_03_check form{
+    display: flex;
+    width: 100%;
+    padding: 0 40px 20px;
+    border-bottom: 1px solid #000;
+    gap: 30px;
+    align-items: center;
+}
+form h2{
+    line-height: 0;
+}
+
+.a_ticket_03_check input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.a_ticket_03_check button{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 54.44px;
+}
+
+.a03_info .text{    
     border-bottom: 1px solid #000;
 }
 
@@ -262,7 +321,7 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     padding: 10px;
 }
 .p-1, .p-2, .p-3{
-    width: 13vw;
+    width: 100%;
     height: 60vh;
     border: 1px solid #000;
     border-radius: 20px;
