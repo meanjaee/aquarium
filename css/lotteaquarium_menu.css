@@ -59,7 +59,11 @@ span{
     color: orange;
 }
 
-.a_ticket_01 a:hover > span {
+.nav a:hover > span {
+    color: orange;
+}
+
+.nav p:hover > span{
     color: orange;
 }
 
@@ -121,6 +125,8 @@ span{
 
     .nav a, .nav h2 {
         color: #000;
+        font-size: 12pt;
+        
     }
     .global_01 {
         width: 100%;
@@ -171,6 +177,11 @@ span{
 
     .brands_nav h1 {
         font-size: 30pt;
+    }
+
+    .brands_nav h2{
+        font-size: 40pt;
+        line-height: 75px;
     }
 
     .a_ticket_01 {
@@ -229,11 +240,12 @@ span{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        padding: 0;
     }
 
     .global_02 h2 {
         color: #000;
-        font-size: 20pt;
+        font-size: 16pt;
     }
 
     
@@ -711,6 +723,9 @@ span{
         overflow: hidden;
     }
 
+    .notice section .post ul li a{
+        font-size: 12pt;
+    }
     .global_02 nav {
         width: 100%;
         padding: 20px 0;
@@ -822,7 +837,7 @@ span{
     footer p {
         margin: 20px auto;
         display: block;
-        font-size: 16pt;
+        font-size: 10pt;
         color: #fff;
         font-family: 'NotoSans-Light';
     }
@@ -899,7 +914,7 @@ span{
     }
 
     footer p {
-        font-size: 20px;
+        font-size: 12pt;
         line-height: 0;
     }
 
@@ -1130,7 +1145,7 @@ span{
     }
 
     .global_02 h2 {
-        font-size: 12pt;
+        font-size: 16pt;
     }
 
     ul {
@@ -1306,7 +1321,7 @@ span{
     }
 
     footer p {
-        font-size: 20px;
+        font-size: 10pt;
         line-height: 0;
     }
 
@@ -1407,7 +1422,7 @@ span{
     }
 
     a {
-        font-size: 16pt;
+        font-size: 12pt;
         color: #888;
         transition: all 0.5s;
     }
@@ -1548,7 +1563,7 @@ span{
     }
     .global_02 h2 {
         color: #fff;
-        font-size: 20pt;
+        font-size: 16pt;
     }
     ul {
         list-style-type: none;

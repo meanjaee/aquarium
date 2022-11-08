@@ -10,6 +10,9 @@
 
 #con1{
     padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .notice {
@@ -20,7 +23,6 @@
     display: flex;
     flex-direction: column;
     border-radius: 50px;
-    overflow-y: auto;
 }
 
 .notice .label {
@@ -71,6 +73,7 @@
     gap: 30px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 
 }
 
@@ -78,6 +81,7 @@
     position: relative;
     width: 100%;
     height: auto;
+    overflow-y: scroll;
 }
 
 
@@ -121,13 +125,12 @@
 
 ul.c{
     width: 100%;
-    padding: 10px;
     height: 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
 }
 
 ul.c li p{
@@ -137,12 +140,31 @@ ul.c li p{
 }
 
 ul.c.active{
-    height: 250px;
+    height: auto;
+    padding: 10px;
 }
 
 @media screen and (min-width:360px) and (max-width:1440px) {
     .notice{
         width: 100vw;
+    }
+
+    @media screen and (min-width:360px) and (max-width:890px) {
+        #con1{
+            padding: 0;
+        }
+        
+        .notice .note .post ul li a{
+            font-size: 12pt;
+        } 
+
+        ul.c{
+            overflow-y: scroll;
+        }
+
+        ul.c li p{
+            font-size: 12pt;
+        }
     }
     
     

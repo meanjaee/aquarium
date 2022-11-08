@@ -123,7 +123,7 @@
     .notice section .post ul li a{
         display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     font-size: 12pt;
     color: #000;
     border-bottom: 1px solid #000;
