@@ -711,7 +711,7 @@ span {
         padding: 0 20px;
         display: flex;
         flex-direction: row;
-        border-top: 1px solid #fff;
+        border-top: 1px solid #000;
         overflow: hidden;
     }
 
@@ -1120,7 +1120,7 @@ span {
         padding: 0 20px;
         display: flex;
         flex-direction: row;
-        border-top: 1px solid #fff;
+        border-top: 1px solid #000;
         overflow: hidden;
     }
 
@@ -1441,16 +1441,12 @@ span {
         background-size: cover;
         justify-content: center;
         color: #fff;
+        overflow-y: scroll;
     }
 
     .nav a, .nav h2 {
-        color: #fff;
+        color: #000;
     }
-
-
-
-
-
     .nav ul li h2 {
         font-size: 16pt;
     }
@@ -1534,7 +1530,7 @@ span {
         padding: 0 20px;
         display: flex;
         flex-direction: column;
-        border-top: 1px solid #fff;
+        border-top: 1px solid #000;
         overflow-y: scroll;
     }
     .global_02 nav {
@@ -1553,7 +1549,7 @@ span {
         margin-bottom: 20px;
     }
     .global_02 h2 {
-        color: #fff;
+        color: #000;
         font-size: 16pt;
     }
     ul {

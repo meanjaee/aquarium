@@ -1,7 +1,4 @@
 <li class="a_ticket_03_check">
-                                        <button>
-                                        
-                                        </button>
                                         <form>
                                             <h2>예매 확인번호</h2>
                                             <input type="search" name="ticket" value="확인번호를 입력하세요.">

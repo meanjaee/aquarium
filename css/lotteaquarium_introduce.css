@@ -273,6 +273,7 @@ button.div.button3.p_03 {
             align-items: center;
         }
         .div_1 section div {
+            width: 100vw;
             float: left;
             clear: both;
             justify-content: center;
@@ -297,6 +298,19 @@ button.div.button3.p_03 {
             height: 100%;
             top: 0;
             left: 0;
+        }
+
+        section div .text #subject{
+            font-size: 16pt;
+        }
+
+        section div .text h3{
+            font-size: 12pt;
+        }
+
+        section div .text p{
+            font-size:10pt;
+            width: 100%;
         }
     }
 

@@ -250,9 +250,12 @@
 
 .title a {
     align-items: flex-end;
+    transition: all 0.5s;
 }
 
-
+.title a:hover{
+    color: orange;
+}
 
 @media screen and (min-width:1440px) {
 
