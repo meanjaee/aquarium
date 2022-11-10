@@ -76,21 +76,21 @@
     color: #000;
 }
 
-.con{
+.con {
     width: 100%;
     height: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 20px;
 
 }
-.con1, .con2, .con3, .con4{
+.con1, .con2, .con3, .con4 {
     width: 100%;
     height: 100%;
     padding: 0;
     /* overflow: hidden; */
 }
-.con div{
+.con div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -99,7 +99,7 @@
     gap: 20px;
     padding: 0 80px;
 }
-.con .box{
+.con .box {
     width: 20%;
     height: 200px;
     display: flex;
@@ -112,88 +112,88 @@
     padding: 0;
     margin: 0;
     color: #000;
-    padding:30px 10px;
+    padding: 30px 10px;
 }
 
-.box a{
+.box a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.con1 .box.n-1{
+.con1 .box.n-1 {
     background: #ff9900;
     color: #000;
 }
-.con1 .box.n-2{
+.con1 .box.n-2 {
     background: #DC1111;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-3{
+.con1 .box.n-3 {
     background: url(/aquarium/image/lotteauqarium/lottesamsung_card_banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    color: #000;    
+    color: #000;
 }
-.con1 .box.n-4{
+.con1 .box.n-4 {
     background: #791b1b;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-5{
+.con1 .box.n-5 {
     background: #5c74fc;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-6{
+.con1 .box.n-6 {
     background: #2e7feb;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-7{
+.con1 .box.n-7 {
     background: #818181;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-8{
+.con1 .box.n-8 {
     background: #025baf;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-9{
+.con1 .box.n-9 {
     background: #00b100;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-10{
+.con1 .box.n-10 {
     background: #aa2222;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-11{
+.con1 .box.n-11 {
     background: #e78f0b;
-    color: #fff;    
+    color: #fff;
 }
-.con1 .box.n-12{
+.con1 .box.n-12 {
     background: #db17c1;
-    color: #fff;    
+    color: #fff;
 }
 
-.box p{
+.box p {
     font-size: 10pt;
     margin: 0;
 }
 
-.box strong{
+.box strong {
     font-size: 12pt;
 }
 
-.num a.active{
+.num a.active {
     border-bottom: 1px solid orange;
 }
 @media screen and (min-width:1440px) {
-.notice {
-    width: 1440px;
-    height: calc(81.06vh);
-    margin: 0 auto;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px;
-}
+    .notice {
+        width: 1440px;
+        height: calc(81.06vh);
+        margin: 0 auto;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+    }
 
 }
 
@@ -208,11 +208,8 @@
         border-radius: 50px;
     }
 
-    .notice .label{
+    .notice .label {
         display: none;
     }
-    @media screen and (min-width:360px) and (max-width:890px) {
-        
-        
-    }
+    @media screen and (min-width:360px) and (max-width:890px) {}
 }

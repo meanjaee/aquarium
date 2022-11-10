@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -265,7 +266,7 @@ button.div.button3.p_03 {
             display: flex;
             flex-direction: column;
             overflow-y: scroll;
-            padding-bottom: 60px;
+            padding: 0px;
 
         }
 
@@ -276,12 +277,14 @@ button.div.button3.p_03 {
             width: 100vw;
             float: left;
             clear: both;
-            justify-content: center;
+            
         }
 
         .div_01 {
             width: 100vw;
+            height: 100vh;
             float: left;
+            gap: 0;
         }
 
         .div_01_1, .div_02_1, .div_03_1 {
@@ -300,17 +303,71 @@ button.div.button3.p_03 {
             left: 0;
         }
 
+        section div.text{
+            gap: 0;
+        }
+
         section div .text #subject{
             font-size: 16pt;
         }
 
         section div .text h3{
-            font-size: 12pt;
+            font-size: 16pt;
         }
 
         section div .text p{
             font-size:10pt;
             width: 100%;
+        }
+
+        .div_01_1, .div_02_1, .div_03_1{
+            width: 100vw;
+            /* height: 100vh; */
+            padding: 0;
+            margin: 0;
+        }
+
+        .button1, .button2, .button3, .illust{
+            width: 30%;
+            height: 75%;
+        }
+    }
+    @media screen and (min-width:640px) and (max-width:1440px) {
+        .div_1{
+            width: 100vw;
+            height: calc(100vh - 240px);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            overflow-y:scroll;
+            padding:0;
+            gap:60px;
+        }
+        section div{
+            width:100vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .div_1 section{
+            width: 100vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction:column;
+            align-items:center;
+        }
+        section div.text{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            gap: 0;
+        }
+        .con{
+            top: 0;
         }
     }
 
