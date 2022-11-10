@@ -176,6 +176,7 @@ button.div.button3.p_03{
 
 .con span{
     font-size: 50pt;
+    color: #fff;
 }
 
 .div .con h1{
@@ -260,15 +261,21 @@ button.div.button3.p_03{
     @media screen and (min-width:360px) and (max-width:640px) {
         .div_1{
             width: 100vw;
-            height:calc(100vh - 120px);
+            height:calc(100vh - 180px);
             display: flex;
             flex-direction: column;
             overflow-y: scroll;
-           
+            padding-bottom: 60px;
+            
         }
 
+        .div_1{
+            align-items: center;
+        }
         .div_1 section div{
-            text-align: center;
+            float: left;
+            clear: both;
+            justify-content: center;
         }
 
         .div_01{
@@ -278,10 +285,18 @@ button.div.button3.p_03{
 
         .div_01_1, .div_02_1, .div_03_1{
             justify-content: center;
+            gap: 40px;
         }
 
         .illust{
             display: none;
+        }
+
+        .div .con{
+            width: 100vw;
+            height: 100%;
+            top: 0;
+            left: 0;
         }
     }
 
