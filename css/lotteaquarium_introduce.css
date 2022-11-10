@@ -256,4 +256,33 @@ button.div.button3.p_03{
     color: green;
 }
 
+@media screen and (min-width:360px) and (max-width:1440px) {
+    @media screen and (min-width:360px) and (max-width:640px) {
+        .div_1{
+            width: 100vw;
+            height:calc(100vh - 120px);
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+           
+        }
 
+        .div_1 section div{
+            text-align: center;
+        }
+
+        .div_01{
+            width: 100vw;
+            float: left;
+        }
+
+        .div_01_1, .div_02_1, .div_03_1{
+            justify-content: center;
+        }
+
+        .illust{
+            display: none;
+        }
+    }
+
+}
