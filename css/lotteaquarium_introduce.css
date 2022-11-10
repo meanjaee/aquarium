@@ -6,63 +6,63 @@
 }
 
 @font-face {
-    font-family:'NotoSans-Bold' ;
+    font-family: 'NotoSans-Bold';
     src: url(/aquarium/fonts/NotoSans-Bold.ttf) format('ttf');
 }
 
-*{
+* {
     box-sizing: border-box;
     font-family: 'NotoSans-Bold';
 }
 
-.div_1{
+.div_1 {
     width: 1440px;
     height: calc(100vh - 200px);
     margin: 80px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-.div_01{
+.div_01 {
     width: 1440px;
     height: calc(100vh - 200px);
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    position:relative;
+    position: relative;
     justify-content: center;
     align-items: center;
-    gap:120px ;
+    gap: 120px;
 }
 
 
 
-section div{
+section div {
     width: 560px;
-    height:720px;
-    padding: 0 30px ;
+    height: 720px;
+    padding: 0 30px;
     gap: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:#fff;
+    color: #fff;
 }
 
-section div.text{
+section div.text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
 
-section div img{
+section div img {
     width: 350px;
     height: 310px;
 }
 
-section div .text p{
+section div .text p {
     margin: 0;
     width: 450px;
     text-align: justify;
@@ -70,19 +70,19 @@ section div .text p{
     line-height: 25pt;
 }
 
-section div .text h3{
+section div .text h3 {
     margin: 0;
     font-size: 20pt;
 }
 
-section div .text #subject{
+section div .text #subject {
     margin: 10px 0;
     font-size: 35pt;
     line-height: 30pt;
     color: orange;
 }
 
-.div_01{
+.div_01 {
     width: 760px;
     height: 720px;
     display: flex;
@@ -90,7 +90,7 @@ section div .text #subject{
     gap: 40px;
 }
 
-.div_01_1, .div_02_1, .div_03_1{
+.div_01_1, .div_02_1, .div_03_1 {
     width: 760px;
     height: 200px;
     display: flex;
@@ -99,7 +99,7 @@ section div .text #subject{
 }
 
 
-.button1, .button2, .button3, .illust{
+.button1, .button2, .button3, .illust {
     /* .div.div_01_1_1~ .div.div_03_1_2 */
     width: 200px;
     height: 200px;
@@ -110,53 +110,53 @@ section div .text #subject{
     align-items: center;
 }
 
-.div a{
+.div a {
     font-size: 30pt;
     font-family: 'NotoSans-Bold';
     opacity: 0.5;
     transition: all 0.5s;
 }
 
-.div a.on{
+.div a.on {
     color: #000;
     opacity: 1;
 }
 
 
 
-.div button{
+.div button {
     border: none;
     font-size: 30pt;
 }
 
-button.div.button1.p_01{
+button.div.button1.p_01 {
     color: orange;
     background: url(/aquarium/image/lotteauqarium/Frame\ 135.png);
 }
 
-button.div.button1.p_03{
+button.div.button1.p_03 {
     color: beige;
     background: url(/aquarium/image//lotteauqarium/Frame\ 136.png);
 }
 
-button.div.button2.p_02{
+button.div.button2.p_02 {
     color: orange;
     background: url(/aquarium/image/lotteauqarium/Frame\ 137.png);
 }
 
-button.div.button3.p_01{
+button.div.button3.p_01 {
     color: #fff;
     background: url(/aquarium/image/lotteauqarium/Frame\ 138.png);
 }
 
-button.div.button3.p_03{
+button.div.button3.p_03 {
     color: green;
     background: url(/aquarium/image/lotteauqarium/Frame\ 139.png);
 }
 
-.div .con{
+.div .con {
     position: absolute;
-    left:0 ;
+    left: 0;
     border-radius: 100px;
     width: 760px;
     height: 680px;
@@ -166,7 +166,7 @@ button.div.button3.p_03{
     line-height: 22pt;
 }
 
-.con button{
+.con button {
     background: none;
     display: flex;
     flex-direction: row;
@@ -174,21 +174,21 @@ button.div.button3.p_03{
     gap: 10px;
 }
 
-.con span{
+.con span {
     font-size: 50pt;
     color: #fff;
 }
 
-.div .con h1{
+.div .con h1 {
     font-size: 40pt;
 }
 
-.div .con h3{
+.div .con h3 {
     font-size: 20pt;
 }
 
-.fade1{
-    
+.fade1 {
+
     position: absolute;
     top: 20px;
     background: url(/aquarium/image/lotteauqarium/Frame\ 135.png);
@@ -197,12 +197,12 @@ button.div.button3.p_03{
     color: #fff;
 }
 
-.fade1 h1{
+.fade1 h1 {
     color: orange;
 }
 
-.fade2{
-    
+.fade2 {
+
     position: absolute;
     top: 20px;
     background: url(/aquarium/image/lotteauqarium/Frame\ 136.png);
@@ -215,8 +215,8 @@ button.div.button3.p_03{
     color: ;
 } */
 
-.fade3{
-    
+.fade3 {
+
     position: absolute;
     top: 20px;
     background: url(/aquarium/image/lotteauqarium/Frame\ 137.png);
@@ -225,12 +225,12 @@ button.div.button3.p_03{
     color: #fff;
 }
 
-.fade3 h1{
+.fade3 h1 {
     color: orange;
 }
 
-.fade4{
-    
+.fade4 {
+
     position: absolute;
     top: 20px;
     background: url(/aquarium/image/lotteauqarium/Frame\ 138.png);
@@ -243,8 +243,8 @@ button.div.button3.p_03{
     color: ;
 } */
 
-.fade5{
-    
+.fade5 {
+
     position: absolute;
     top: 20px;
     background-color: #000;
@@ -253,46 +253,46 @@ button.div.button3.p_03{
     z-index: 50;
     color: #fff;
 }
-.fade5 h1{
+.fade5 h1 {
     color: green;
 }
 
 @media screen and (min-width:360px) and (max-width:1440px) {
     @media screen and (min-width:360px) and (max-width:640px) {
-        .div_1{
+        .div_1 {
             width: 100vw;
-            height:calc(100vh - 180px);
+            height: calc(100vh - 180px);
             display: flex;
             flex-direction: column;
             overflow-y: scroll;
             padding-bottom: 60px;
-            
+
         }
 
-        .div_1{
+        .div_1 {
             align-items: center;
         }
-        .div_1 section div{
+        .div_1 section div {
             float: left;
             clear: both;
             justify-content: center;
         }
 
-        .div_01{
+        .div_01 {
             width: 100vw;
             float: left;
         }
 
-        .div_01_1, .div_02_1, .div_03_1{
+        .div_01_1, .div_02_1, .div_03_1 {
             justify-content: center;
             gap: 40px;
         }
 
-        .illust{
+        .illust {
             display: none;
         }
 
-        .div .con{
+        .div .con {
             width: 100vw;
             height: 100%;
             top: 0;
