@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 80px 0;
+    
 }
 
 .div_01{
@@ -66,13 +66,13 @@ section div .text p{
     margin: 0;
     width: 450px;
     text-align: justify;
-    font-size: 16pt;
+    font-size: 12pt;
     line-height: 25pt;
 }
 
 section div .text h3{
     margin: 0;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 section div .text #subject{

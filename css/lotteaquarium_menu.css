@@ -212,14 +212,6 @@ span{
         line-height: 0;
     }
 
-    .a_ticket_01 a:hover > span {
-        color: #000;
-    }
-
-    .a_ticket_01 a:hover > h2 {
-        color: #000;
-    }
-
     .global_02 {
         width: 100%;
         max-width: 1440px;
