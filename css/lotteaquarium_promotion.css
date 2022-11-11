@@ -5,6 +5,10 @@
     src: url(/aquarium/fonts/NotoSans-Light.ttf) format('ttf');
 }
 
+.note{
+    overflow: hidden;
+}
+
 .notice .label {
     width: 100%;
     height: 100px;
@@ -41,21 +45,24 @@
 }
 .notice section {
     width: 100%;
-    height: 785px;
-    padding: 50px 50px;
+    height: 100%;
+    padding: 50px;
     gap: 15px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .notice section .post {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    border-radius: 30px;
 }
 .notice section .post ul {
     position: absolute;
     width: 100%;
-    height: 502px;
+    height: 100%;
     margin: 0;
 }
 
@@ -81,14 +88,13 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 
 }
-.con1, .con2, .con3, .con4 {
+.con1 {
     width: 100%;
     height: 100%;
     padding: 0;
-    /* overflow: hidden; */
 }
 .con div {
     display: flex;
@@ -96,15 +102,15 @@
     justify-content: center;
     width: 100%;
     height: 100%;
-    gap: 20px;
-    padding: 0 80px;
+    gap: 25px;
+    padding: 10px 80px;
 }
 .con .box {
-    width: 20%;
-    height: 200px;
+    width: 100%;
+    height: 19vh;
     display: flex;
     border-radius: 30px;
-    box-shadow: 0 2px 6px 2px #e4e4e4;
+    box-shadow: 2px 2px 2px 2px #e4e4e4;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -112,7 +118,7 @@
     padding: 0;
     margin: 0;
     color: #000;
-    padding: 30px 10px;
+    padding: 30px 30px;
 }
 
 .box a {
@@ -185,9 +191,10 @@
     border-bottom: 1px solid orange;
 }
 @media screen and (min-width:1440px) {
+
     .notice {
         width: 1440px;
-        height: calc(81.06vh);
+        height: calc(100vh - 200px);
         margin: 0 auto;
         background: #fff;
         display: flex;
@@ -200,16 +207,55 @@
 @media screen and (min-width:360px) and (max-width:1440px) {
     .notice {
         width: 100vw;
-        height: calc(81.06vh);
+        height: calc(100vh - 200px);
         margin: 0 auto;
         background: #fff;
         display: flex;
         flex-direction: column;
         border-radius: 50px;
     }
+    .con div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+        padding: 0;
+    }
 
     .notice .label {
         display: none;
     }
-    @media screen and (min-width:360px) and (max-width:890px) {}
+    @media screen and (min-width:360px) and (max-width:640px) {
+        .notice{
+            width: 100vw;
+            height: calc(100vh - 140px);
+        }
+
+        .con div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            gap: 20px;
+            padding: 0;
+        }
+
+        .con{
+            gap: 20px;
+        }
+
+        .con .box{
+            height: 33vh;
+        }
+    }
+    @media screen and (min-width:640px) and (max-width:890px) {
+
+        .con{
+            gap: 18px;
+        }
+        
+    }
 }

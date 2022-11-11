@@ -7,7 +7,7 @@ $(document).ready(function () {
             $(".notice section .post > ul").filter(":visible").stop(true).fadeOut("instant").end()
                 .eq(num).stop(true).fadeIn("instant");
         });
-        $(".num a").addClass("active").add(".note > ul:first").show();
+        $(".notice section .post > ul:nth-child(1)").addClass("active").add(".post > ul:first").show();
         
    
 });
