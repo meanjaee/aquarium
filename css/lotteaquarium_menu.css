@@ -36,6 +36,7 @@
 a {
     text-decoration: none;
     font-family: 'NotoSans-Light';
+    transition: none;
 }
 
 .sns img {
@@ -192,7 +193,7 @@ span {
     .a_ticket_01 span {
         font-size: 80px;
         color: #000;
-        transition: all 0.5s;
+        
 
     }
 
@@ -365,6 +366,9 @@ span {
         display: flex;
         flex-direction: row;
         gap: 20px;
+    }
+    .a_ticket_02 .ticket_right a:hover > h2, .a_ticket_02 .ticket_right a:hover > span{
+        color: orange;
     }
 
     .a_ticket_02 a {
@@ -597,7 +601,7 @@ span {
     a {
         font-size: 16pt;
         color: #888;
-        transition: all 0.5s;
+        
     }
 
     a:hover {
@@ -1008,7 +1012,7 @@ span {
     a {
         font-size: 12pt;
         color: #888;
-        transition: all 0.5s;
+        
     }
 
     a:hover {
@@ -1421,7 +1425,7 @@ span {
     a {
         font-size: 12pt;
         color: #888;
-        transition: all 0.5s;
+        
     }
 
     a:hover {
@@ -1512,7 +1516,7 @@ span {
     }
     .a_ticket_01 h2 {
         color: #000;
-        transition: all 0.5s;
+        
         font-size: 16pt;
         line-height: 0;
     }
