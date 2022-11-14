@@ -68,6 +68,10 @@ $(document).ready(function(){
         })
         .trigger("click");
     
-
+        $(".index.parking > button").click(function(){
+            $(this).toggleClass("active").siblings().removeClass("active");
+            var num = $(this).ul();
+        $("index.parking > ul").eq(num).toggleClass('active').siblings().removeClass('active');
+        });
     
 });
