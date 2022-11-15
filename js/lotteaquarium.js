@@ -28,11 +28,11 @@ $(document).ready(function(){
     //         $(".content.n_03").removeClass("active");
     //     }
     // });
-    setTimeout(function(){
-        $(".card").fadeIn(200);
-        $(".card").animtate({marginLeft:'100%'},200);
+    // setTimeout(function(){
+    //     $(".card").fadeIn(200);
+    //     $(".card").animtate({marginLeft:'100%'},200);
     
-    },200)
+    // },200)
 
     $(".container02 > button").click(function() {
         $(this).next('div').toggleClass('active').siblings("div").removeClass("active");
