@@ -734,16 +734,8 @@
             height: 30px;
         }
 
-        .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-            
-        }
-        .swiper-button-next:after, .swiper-button-prev:after {
-            
-        }
-        .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-           
-        }
-
+     
+        
         .swiper-pagination-bullet {
             width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 30px));
             height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 1px));
