@@ -59,9 +59,10 @@
 }
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: -40px;
+    top: 80%;
     left: 0;
     width: 100%;
+    position:absolute;
 }
 
 .swiper-pagination-bullet {
@@ -307,7 +308,7 @@
     .swiper-button {
         align-items: center;
         position: relative;
-        top: 30%;
+        top: 80%;
     }
 
 
@@ -1891,7 +1892,7 @@
         }
 
         .card.swiper-slide, .card.swiper-slide-active {
-            height: 85%;
+            height: auto;
         }
 
         .swiper .banner {
@@ -2271,6 +2272,7 @@
             padding: 0;
             height: calc(100vh - 140px);
         }
+
 
         #left {
             width: 100%;
