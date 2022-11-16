@@ -271,11 +271,13 @@ button.div.button3.p_03 {
         }
 
         section div{
-            height: calc(100vh - 180px);
+            height: calc(100vh - 140px);
         }
 
         .div_1 {
             align-items: center;
+            height: calc(100vh - 140px);
+            gap: 80px;
         }
         .div_1 section div {
             width: 100vw;
@@ -290,7 +292,7 @@ button.div.button3.p_03 {
             height: 100vh;
             float: left;
             gap: 0;
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
 
         .div_01_1, .div_02_1, .div_03_1 {

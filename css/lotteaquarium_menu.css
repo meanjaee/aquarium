@@ -679,8 +679,7 @@ span {
 
 
     .brands_nav {
-        padding: 10px;
-        gap: 10px;
+        display: none;
     }
 
     .brands_nav h1 {
@@ -705,13 +704,12 @@ span {
         justify-content: center;
         align-items: center;
         padding: 20px 20px;
-        gap: 10px;
+        gap: 20px;
     }
 
     .a_ticket_01 h2 {
         color: #000;
-
-        font-size: 20pt;
+        font-size: 16pt;
         line-height: 0;
     }
 
@@ -774,7 +772,7 @@ span {
 
     }
 
-    header a, header button {
+    header > a, header .language, header button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1438,7 +1436,8 @@ span {
     a {
         font-size: 12pt;
         color: #888;
-        
+        display: flex;
+        justify-content: flex-start;
     }
 
     a:hover {
@@ -1594,7 +1593,7 @@ span {
         background: #b6e9fc;
 
     }
-    header a, header button {
+    header > a, header .language, header button {
         display: flex;
         justify-content: center;
         align-items: center;
