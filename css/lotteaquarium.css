@@ -1891,7 +1891,7 @@
         }
 
         .card.swiper-slide, .card.swiper-slide-active {
-            height: 100%;
+            height: 80%;
         }
 
         .swiper .banner {
