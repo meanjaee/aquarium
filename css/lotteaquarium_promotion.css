@@ -207,7 +207,7 @@
 @media screen and (min-width:360px) and (max-width:1440px) {
     .notice {
         width: 100vw;
-        height: 100%;
+        height: 85%;
         margin: 0 auto;
         background: #fff;
         display: flex;
