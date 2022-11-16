@@ -306,12 +306,12 @@ button.div.button3.p_03 {
         }
 
         .div .con {
-            width: 85%;
-            height: 97%;
+            width: 100%;
+            height: 100%;
             top: 0;
             left:auto;
             margin: 0 auto;
-            border-radius: 60px;
+            border-radius: 87px;
         }
         .fade1, .fade2, .fade3, .fade4, .fade5{
             top: 0;
