@@ -309,7 +309,7 @@ button.div.button3.p_03 {
             width: 85%;
             height: 97%;
             top: 0;
-            left:0 ;
+            left:auto;
             margin: 0 auto;
             border-radius: 60px;
         }
