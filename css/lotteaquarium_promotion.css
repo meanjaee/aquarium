@@ -274,7 +274,7 @@
     .notice section {
         width: 100%;
         height: auto;
-        padding: 25px;
+        padding:30px 25px;
         gap: 15px;
         display: flex;
         flex-direction: column;

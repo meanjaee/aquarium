@@ -166,6 +166,18 @@ ul.c.active{
             font-size: 12pt;
         }
     }
+
+    @media screen and (min-width:360px) and (max-width:640px) {
+        .notice{
+            width:100vw;
+            height: 85% ;
+        }
+
+        .notice .note{
+            padding: 30px 25px;
+        }
+        
+    }
     
     
     

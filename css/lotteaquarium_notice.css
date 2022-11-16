@@ -148,7 +148,16 @@
     @media screen and (min-width:360px) and (max-width:640px) {
         .notice{
             height: calc(100vh - 140px);
+            padding: 30px 25px;
         }
+        .notice section.note {
+            width: 100%;
+            height: 785px;
+            padding: 0;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         
-    }
+    }}
 }
