@@ -1409,10 +1409,7 @@ span {
         overflow-y: hidden;
     }
 
-    .ticket, .sec, .container1, .container1::before, .cardtab,
-    #left ul li, #right .background, #right:hover > .background {
-        width: 100%;
-    }
+    
 
     .sec {
         height: calc(100vh - 140px);
@@ -1470,6 +1467,7 @@ span {
 
 
     .inner {
+        height: calc(100vh - 140px);
         margin: 80px 0 60px;
 
     }
