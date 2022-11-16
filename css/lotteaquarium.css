@@ -113,6 +113,7 @@
 
 .sec {
     width: 100%;
+    height: calc(100vh - 200px);
 }
 
 
@@ -1960,7 +1961,7 @@
 
         .sec {
             width: 100%;
-            height: calc(100ch - 200px);
+            height: calc(100ch - 140px);
         }
         .sec01 {
             position: relative;
