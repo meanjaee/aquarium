@@ -30,7 +30,7 @@
 
     <header>
         <button>
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined menu">
                 menu
             </span>
             <span>MENU</span>
@@ -46,9 +46,6 @@
             <p>|</p>
             <a href="#">EN</a>
         </div>
-
-    </header>
-    <div class="inner">
         <nav class="nav">
             <div class="global_01">
                 <div class="inner">
@@ -126,11 +123,14 @@
                 </nav>
             </div>
         </nav>
+    </header>
+    <div class="inner">
+
         <div class="swiper Page">
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide sec sec01">
-                    <div class="swiper Banner">
+                    <div class="container swiper Banner">
                         <div class="swiper-button">
                             <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
                             <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide">
@@ -470,7 +470,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide sec sec03">
-                    <div class="container container03">
+                    <div class="contsainer container03">
                         <div id="left">
                             <ul>
                                 <li class="title">
@@ -680,27 +680,26 @@
                     slidesPerView: 1,
                     spaceBetween: 0,
                     slidesPerGroup: 1
-                }},
-                autoplay: {
-                    delay: 1500,
-                    disableOnInteraction: false,
-                },
+                }
+            },
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+            },
 
-                loop: true,
-                loopFillGroupWithBlank: true,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            }
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        }
         )
     </script>
-
-
 </body>
 
 </html>
