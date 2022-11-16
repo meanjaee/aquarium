@@ -131,20 +131,7 @@
 
                 <div class="swiper-slide sec sec01">
                     <div class="container swiper Banner">
-                        <div class="swiper-button">
-                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
-                            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide">
-                            </div>
-                            <div
-                                class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                                <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                                    role="button" aria-label="Go to slide 1" aria-current="true"></span>
-                                <span class="swiper-pagination-bullet" tabindex="0" role="button"
-                                    aria-label="Go to slide 2"></span>
-                                <span class="swiper-pagination-bullet" tabindex="0" role="button"
-                                    aria-label="Go to slide 3"></span>
-                            </div>
-                        </div>
+                        
                         <div class="swiper-wrapper">
 
                             <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
@@ -193,7 +180,11 @@
                             </div>
 
                         </div>
-
+                        <div class="next swiper-button-next"></div>
+                        <div class="prev swiper-button-prev"></div>
+                        <div class="swiper-pagination ">
+                               </div>
+                        
                     </div>
 
                 </div>
@@ -690,13 +681,13 @@
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
         }
         )
     </script>
