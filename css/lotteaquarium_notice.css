@@ -139,7 +139,7 @@
             align-items: center;
         }
         .notice{
-            height: calc(100vh - 140px);
+            height: calc(100% - 20px);
         }
         .notice section.note{
             height: 100%;
