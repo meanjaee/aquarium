@@ -1,38 +1,4 @@
 $(document).ready(function(){
-    
-    // $(".tab_n_01").click(function() {
-    //     if($(".content.n_01").toggleClass("active")){
-    //         $(".content.n_02").removeClass("active");
-    //         $(".content.n_03").removeClass("active");
-    //         $(".content.n_04").removeClass("active");
-    //     } 
-    // });
-    // $(".tab_n_02").click(function() {
-    //     if($(".content.n_02").toggleClass("active")){
-    //         $(".content.n_01").removeClass("active");
-    //         $(".content.n_03").removeClass("active");
-    //         $(".content.n_04").removeClass("active");
-    //     }
-    // });
-    // $(".tab_n_03").click(function() {
-    //     if($(".content.n_03").toggleClass("active")){
-    //         $(".content.n_01").removeClass("active");
-    //         $(".content.n_02").removeClass("active");
-    //         $(".content.n_04").removeClass("active");
-    //     }
-    // });
-    // $("button.tab_n_04").click(function() {
-    //     if($(".content.n_04").toggleClass("active")){
-    //         $(".content.n_01").removeClass("active");
-    //         $(".content.n_02").removeClass("active");
-    //         $(".content.n_03").removeClass("active");
-    //     }
-    // });
-    // setTimeout(function(){
-    //     $(".card").fadeIn(200);
-    //     $(".card").animtate({marginLeft:'100%'},200);
-    
-    // },200)
 
     $(".container02 > button").click(function() {
         $(this).next('div').toggleClass('active').siblings("div").removeClass("active");
