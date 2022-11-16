@@ -153,7 +153,7 @@ span {
 
     .inner {
         margin: 80px 0 120px;
-
+        height: calc(100vh - 200px);
     }
 
     .platform {
@@ -655,7 +655,7 @@ span {
 
     .inner {
         margin: 80px 0 120px;
-
+        height: calc(100vh - 200px);
     }
 
     .platform {
