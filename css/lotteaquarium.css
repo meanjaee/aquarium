@@ -1891,7 +1891,7 @@
         }
 
         .card.swiper-slide, .card.swiper-slide-active {
-            height: 80%;
+            height: auto;
         }
 
         .swiper .banner {
@@ -1963,7 +1963,7 @@
 
         .sec {
             width: 100%;
-            height: calc(100ch - 140px);
+            height: auto;
         }
         .sec01 {
             position: relative;
