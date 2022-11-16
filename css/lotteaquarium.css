@@ -783,12 +783,12 @@
         }
 
         .swiper-button-next, .swiper-rtl .swiper-button-prev {
-            right: 320px;
+            right: 250px;
             left: auto;
         }
 
         .swiper-button-prev, .swiper-rtl .swiper-button-next {
-            left: 320px;
+            left: 250px;
             right: auto;
         }
 
@@ -1889,7 +1889,7 @@
         }
 
         .card.swiper-slide, .card.swiper-slide-active {
-            height: 78vh;
+            height: calc(100% - 20px);
         }
 
         .swiper .banner {
@@ -1908,18 +1908,15 @@
         }
 
         .swiper-button {
-            position: relative;
-            top: 740px;
+            display: none;
         }
 
         .swiper-button-next, .swiper-rtl .swiper-button-prev {
-            left: 500px;
-            right: auto;
+            display: none;
         }
 
         .swiper-button-prev, .swiper-rtl .swiper-button-next {
-            right: 500px;
-            left: auto;
+            display: none;
         }
 
         * {
@@ -2264,7 +2261,7 @@
 
         .container03 {
             width: 100%;
-            height: 90%;
+            height: calc(100% - 20px);
             display: flex;
             flex-direction: row;
             margin: 0 auto;
@@ -2274,7 +2271,7 @@
 
         #left {
             width: 100%;
-            height: calc(100vh - 180px);
+            height: 100%;
             border-radius: 50px;
             background: #fff;
             margin: 0;
