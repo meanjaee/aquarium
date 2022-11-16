@@ -59,9 +59,10 @@
 }
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    top: 80%;
+    top: 30%;
     left: 0;
     width: 100%;
+    display: flex;
     position:absolute;
 }
 
@@ -91,18 +92,16 @@
     top: 700px;
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: 500px;
-    left: auto;
     padding: 40px;
     background: #ffa800;
     border-radius: 25px;
 }
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: 500px;
-    right: auto;
+
     padding: 40px;
     background: #ffa800;
     border-radius: 25px;
+    position: absolute;
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev::after{
     color:#495dc0 ;
@@ -308,7 +307,7 @@
     .swiper-button {
         align-items: center;
         position: relative;
-        top: 80%;
+        top: 30%;
     }
 
 

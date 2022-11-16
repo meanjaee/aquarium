@@ -16,9 +16,12 @@
 }
 
 @media screen and (min-width:360px) and (max-width:640px) {
-        .inner_2{
+    .wrap{
+        height: calc(100vh - 140px);
+    }    
+    .inner_2{
             width: 100vw;
-            height: calc(100vh - 140px);
+            height: 85%;
         }
         
         .banner li h1,.banner li p,.banner li h2{
