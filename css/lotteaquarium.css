@@ -1891,7 +1891,7 @@
         }
 
         .card.swiper-slide, .card.swiper-slide-active {
-            height: auto;
+            height: 85%;
         }
 
         .swiper .banner {
@@ -2269,12 +2269,12 @@
             flex-direction: row;
             margin: 0 auto;
             padding: 0;
+            height: calc(100vh - 140px);
         }
-
 
         #left {
             width: 100%;
-            height: calc(100vh - 140px);
+            height: 85%;
             border-radius: 50px;
             background: #fff;
             margin: 0;
