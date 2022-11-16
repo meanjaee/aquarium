@@ -258,4 +258,26 @@
         }
         
     }
+    .box p {
+        font-size: 8pt;
+        margin: 0;
+    }
+    
+    .box strong {
+        font-size: 8pt;
+    }
+
+    .con .box{
+        height: auto;
+    }
+
+    .notice section {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
 }
