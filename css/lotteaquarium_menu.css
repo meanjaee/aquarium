@@ -623,6 +623,8 @@ span {
         background-size: cover;
         justify-content: center;
         color: #000;
+        left: 0;
+        top: 80px;
     }
 
     .nav a, .nav h2 {
@@ -1034,6 +1036,8 @@ span {
         background-size: cover;
         justify-content: center;
         color: #fff;
+        left: 0;
+        top: 80px;
     }
 
 
@@ -1445,6 +1449,8 @@ span {
         justify-content: center;
         color: #fff;
         overflow-y: scroll;
+        left: 0;
+        top: 80px;
     }
 
     .nav a, .nav h2 {
