@@ -239,6 +239,7 @@ span {
         flex-direction: column;
         gap: 20px;
         padding: 0;
+        align-items: flex-start;
     }
 
     .global_02 h2 {
