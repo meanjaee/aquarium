@@ -230,7 +230,7 @@
     @media screen and (min-width:360px) and (max-width:640px) {
         .notice{
             width: 100vw;
-            height: calc(100vh - 140px);
+            height: 85%;
         }
 
         .con div {
