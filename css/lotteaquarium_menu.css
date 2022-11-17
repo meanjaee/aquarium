@@ -1548,11 +1548,13 @@ span {
         width: 100%;
         max-width: 1440px;
         margin: 0 auto;
+        height: auto;
         padding: 0 20px;
         display: flex;
         flex-direction: column;
         border-top: 1px solid #000;
         overflow-y: scroll;
+        margin-bottom: 60px;
     }
     .global_02 nav {
         width: 100%;
@@ -1571,6 +1573,11 @@ span {
         margin: 0;
         padding: 0;
         height: 100%;
+    }
+
+    .global_02 nav ul li a{
+        margin-bottom: 15px;
+
     }
 
     header, footer {
