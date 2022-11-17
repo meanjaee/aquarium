@@ -10,7 +10,7 @@
     src: url(/aquarium/fonts/NotoSans-Bold.ttf) format('ttf');
 }
 
-* {
+*{ 
     box-sizing: border-box;
     font-family: 'NotoSans-Bold';
 }
@@ -278,7 +278,7 @@ button.div.button3.p_03 {
             align-items: center;
             height: calc(100vh - 140px);
             gap: 40px;
-
+            padding: 20px 0;
         }
         .div_1 section div {
             width: 100vw;
@@ -311,7 +311,7 @@ button.div.button3.p_03 {
             top: 0;
             left:auto;
             margin: 0 auto;
-            border-radius: 87px;
+            border-radius: 80px;
         }
         .fade1, .fade2, .fade3, .fade4, .fade5{
             top: 0;

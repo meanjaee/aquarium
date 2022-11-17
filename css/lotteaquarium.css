@@ -29,6 +29,20 @@
     /* border: 1px solid red; */
 }
 
+.Banner.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: var(--swiper-pagination-bullet-vertical-gap, 12px) 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    opacity: 0.3;
+}
+
+.Banner .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 17%;
+    left: 620px;
+    right: 620px;
+    width: 14%;
+}
 
 
 .swiper {
@@ -62,7 +76,7 @@
 
 .Banner .swiper-pagination-bullets.swiper-pagination-horizontal {
 bottom: 17%;
-left: 47%;
+left: 43.7%;
 right: auto;
 display: flex;
 width:fit-content;
@@ -81,29 +95,7 @@ border-radius: 15px;
 :root {
     --swiper-theme-color: #ffa800;
 }
-/* .swiper-button {
-    align-items: center;
-    position: relative;
-    top: 700px;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    padding: 40px;
-    background: #ffa800;
-    border-radius: 25px;
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
 
-    padding: 40px;
-    background: #ffa800;
-    border-radius: 25px;
-    position: absolute;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev::after{
-    color:#495dc0 ;
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-prev::after{
-    color:#495dc0 ;
-} */
 
 
 .sec {
@@ -545,21 +537,21 @@ border-radius: 15px;
         color: #19B000;
     }
 
-
     .card5 {
         display: block;
-        background: #51ABFF;
-        color: #fff;
+        background: #F0BB00;
+        color: #000;
         font-size: 16pt;
     }
     .card5 a {
-        border: 2px solid #fff;
+        border: 2px solid #000;
+        color: #000;
         font-size: 16pt;
     }
     .card5 a:hover {
-        color: #51ABFF;
+        background: #000;
+        color: #F0BB00;
     }
-
 
     .card6 {
         display: block;
@@ -577,18 +569,16 @@ border-radius: 15px;
 
     .card7 {
         display: block;
-        background: #F0BB00;
-        color: #000;
+        background: #51ABFF;
+        color: #fff;
         font-size: 16pt;
     }
     .card7 a {
-        border: 2px solid #000;
-        color: #000;
+        border: 2px solid #fff;
         font-size: 16pt;
     }
     .card7 a:hover {
-        background: #000;
-        color: #F0BB00;
+        color: #51ABFF;
     }
 
     .card8 {
@@ -727,17 +717,14 @@ border-radius: 15px;
 
 
 
-        .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical > .swiper-pagination-bullets {
-            left: 1%;
-            top: 50%;
-            transform: translate3d(0px, -50%, 0);
-        }
+        
 
-        .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+        .Banner.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
             margin: var(--swiper-pagination-bullet-vertical-gap, 12px) 0;
             display: block;
             width: 30px;
             height: 30px;
+            opacity: 0.3;
         }
 
         .Banner .swiper-pagination-bullets.swiper-pagination-horizontal{
@@ -2035,7 +2022,7 @@ border-radius: 15px;
 
         .card1 {
             display: block;
-            background: #3b972f;
+            background: #DC1111;
             color: #fff;
             font-size: 16pt;
             position: relative;
@@ -2046,7 +2033,7 @@ border-radius: 15px;
 
         }
         .card1 a:hover {
-            color: #3b972fc5;
+            color: #DC1111;
         }
 
 
@@ -2066,34 +2053,37 @@ border-radius: 15px;
 
         .card2 {
             display: block;
-            background: #ffa800;
+            background: #3b972f;
             font-size: 16pt;
-            color: #000;
+            color: #fff;
         }
         .card2 a {
-            color: #000;
+            color: #fff;
             font-size: 16pt;
-            border: 2px solid #000;
+            border: 2px solid #fff;
         }
         .card2 a:hover {
-            color: #ffa800;
-            background: #000;
+            color: #3b972f;
+            background: #fff;
 
         }
 
 
         .card3 {
             display: block;
-            background: #DC1111;
+            background: #ffa800;
             font-size: 16pt;
-            color: #fff;
+            color: #000;
         }
         .card3 a {
-            border: 2px solid #fff;
+            border: 2px solid #000;
             font-size: 16pt;
+            color: #000;
+            
         }
         .card3 a:hover {
-            color: #DC1111;
+            color: #ffa800;
+            background-color: #000;
         }
 
 
@@ -2111,19 +2101,20 @@ border-radius: 15px;
             color: #19B000;
         }
 
-
         .card5 {
             display: block;
-            background: #51ABFF;
-            color: #fff;
+            background: #F0BB00;
+            color: #000;
             font-size: 16pt;
         }
         .card5 a {
-            border: 2px solid #fff;
+            border: 2px solid #000;
+            color: #000;
             font-size: 16pt;
         }
         .card5 a:hover {
-            color: #51ABFF;
+            background: #000;
+            color: #F0BB00;
         }
 
 
@@ -2143,19 +2134,18 @@ border-radius: 15px;
 
         .card7 {
             display: block;
-            background: #F0BB00;
-            color: #000;
+            background: #51ABFF;
+            color: #fff;
             font-size: 16pt;
         }
         .card7 a {
-            border: 2px solid #000;
-            color: #000;
+            border: 2px solid #fff;
             font-size: 16pt;
         }
         .card7 a:hover {
-            background: #000;
-            color: #F0BB00;
+            color: #51ABFF;
         }
+        
 
         .card8 {
             display: none;
