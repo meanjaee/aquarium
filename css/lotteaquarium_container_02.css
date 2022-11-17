@@ -166,12 +166,13 @@ li.index.parking.active li{
 }
 
 .a_ticket_03 span{
-    font-size: 80px;
+    font-size: 40px;
 }
 
 .a_ticket_03 h2, span{
     font-size: 16pt;
     color: #000;
+    line-height: 10px;
 }
 
 .a_ticket_03 a:hover > h2,
@@ -188,11 +189,12 @@ li.index.parking.active li{
 .a_ticket_03_info{
     width: 100%;
     height: 100%;
-    padding-left: 20px;
+    padding:0 ;
     /* display: flex; */
 }
-
-
+.a_ticket_03_info ul{
+    padding: 0;
+}
 
 .a_ticket_03_check{
     padding: 0;
@@ -200,7 +202,6 @@ li.index.parking.active li{
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
     gap: 20px;
 }
 
@@ -246,7 +247,7 @@ form h2{
 
 .a03_info_warning li{
     padding: 3px 0;
-    font-size: 8pt;
+    font-size: 12pt;
     letter-spacing: -1px;
 }
 
@@ -265,7 +266,6 @@ form h2{
     display: none;
 }
 .map.b1{
-    width: 100%;
     height: 100%;
     background: url(/aquarium/image/lotteauqarium/b1.png);
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@ form h2{
     overflow: scroll;
 }
 .map.b2{
-    width: 100%;
+
     height: 100%;
     background: url(/aquarium/image/lotteauqarium/b2.png);
     background-repeat: no-repeat;
@@ -301,7 +301,6 @@ form h2{
 .index.active{
     display: flex;
     flex-direction: column;
-    /* padding: 0 30px; */
 }
 button.p_01, button.p_02, button.p_03, button.p_04{
     border: none;
@@ -329,7 +328,7 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 }
 .p-1, .p-2{
     width: 100%;
-    height: 60vh;
+    height: 100%;
     border: 1px solid #000;
     border-radius: 30px;
     display: flex;
@@ -340,7 +339,7 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 }
 .p-3{
     width: 100%;
-    height: 60vh;
+    height: 100%;
     display: flex;
     flex-direction: row;
     border: 1px solid #000;
@@ -392,10 +391,6 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     padding-bottom: 20px;
 }
 
-.a_ticket_03_info h2{
-    padding-bottom: 0;
-}
-
 .parking.active{
     width: 100%;
     height: 100%;
@@ -419,7 +414,6 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 
 .parking div h2{
     font-size: 24px;
-    margin: 19.92px 0;
 }
 
 
@@ -436,7 +430,7 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     margin :0;
 }
 .parking img{
-    width: 100%;
+    width: 80%;
     /* height: 50%; */
 }
 .parking > ul{

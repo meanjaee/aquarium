@@ -54,8 +54,9 @@
 .Banner .swiper-button-prev{
     left: 35%;
     right: auto;
-    top: 80%;
+    bottom: 30px;
     position: absolute;
+    top: auto;
     
 }
 .Banner .swiper-button-prev::after,.Banner .swiper-button-next::after {
@@ -66,16 +67,16 @@
 
 
 .Banner .swiper-button-next{
+    top: auto;
     right: 35%;
     left: auto;
-    top: 80%;
+    bottom: 30px;
     position: absolute;
     
 }
 
-
 .Banner .swiper-pagination-bullets.swiper-pagination-horizontal {
-bottom: 17%;
+bottom: 35px;
 left: 43.7%;
 right: auto;
 display: flex;
@@ -90,7 +91,9 @@ border-radius: 15px;
 
 
 
-
+.inner{
+    overflow-y: scroll;
+}
 
 :root {
     --swiper-theme-color: #ffa800;
@@ -268,7 +271,7 @@ border-radius: 15px;
 @media screen and (min-width:1440px) {
 
     .swiper {
-        height: calc(100vh - 200px);
+        height:700px;
     }
 
     .card.swiper-slide, .card.swiper-slide-active {
@@ -299,7 +302,6 @@ border-radius: 15px;
 
 
     .container02 {
-
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -308,6 +310,7 @@ border-radius: 15px;
         background-size: 100%;
         background-repeat: no-repeat;
         border-radius: 50px;
+        margin-bottom: 30px;
     }
 
 

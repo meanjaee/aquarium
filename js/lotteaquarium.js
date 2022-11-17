@@ -30,15 +30,20 @@ $(document).ready(function(){
     });
 
     
+        $("#price").on("click",function(){
+            $(".a_ticket_03_info").load("/aquarium/media/a_ticket_03_info.txt")
+            $(this).addClass("on").siblings().removeClass("on");
+        }).trigger("click");
         $("#request").on("click",function(){
             $(".a_ticket_03_info").load("/aquarium/media/a_ticket_03_check.txt")
             $(this).addClass("on").siblings().removeClass("on");
         })
-        $("#price").on("click",function(){
-            $(".a_ticket_03_info").load("/aquarium/media/a_ticket_03_info.txt")
+        
+        $("#warning").on("click",function(){
+            $(".a_ticket_03_info").load("/aquarium/media/a_ticket_03_warning.txt")
             $(this).addClass("on").siblings().removeClass("on");
         })
-        .trigger("click");
+        
     
         $(".index.parking > button").click(function(){
             $(this).toggleClass("active").siblings().removeClass("active");

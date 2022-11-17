@@ -124,32 +124,12 @@
         </nav>
     </header>
     <div class="inner">
-
         <div class="swiper Page">
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide sec sec01">
                     <div class="container swiper Banner">
-                        
                         <div class="swiper-wrapper">
-
-                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                                role="button" aria-label="Go to slide 1" aria-current="true"></span>
-                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                                role="button" aria-label="Go to slide 2" aria-current="true"></span>
-                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                                role="button" aria-label="Go to slide 3" aria-current="true"></span>
-                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
-                                aria-label="Go to slide 1">
-                            </span>
-                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
-                                aria-label="Go to slide 2">
-                            </span>
-                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
-                                aria-label="Go to slide 3">
-                            </span>
-
-
                             <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
                                 role="button" aria-label="Go to slide 1" aria-current="true"></span>
                             <span class="swiper-pagination-bullet" tabindex="0" role="button"
@@ -202,11 +182,13 @@
                                </div>
                         
                     </div>
-
                 </div>
-                <div class="swiper-slide sec sec02">
+            </div>
+                
+            <div class="swiper-pagination"></div>
+        </div>
+                        <div class="sec sec02">
                     <div class="container container02">
-
                         <button class="tab tab_n_01">
                             <img src="/aquarium/image/lotteauqarium/costicon.png" alt="cost">
                             이용요금
@@ -231,6 +213,12 @@
                                                 confirmation_number
                                             </span>
                                             <h2>온라인 예매</h2>
+                                        </a>
+                                        <a href="#" id="warning">
+                                            <span class="material-symbols-outlined">
+                                                warning
+                                                </span>
+                                            <h2>주의사항</h2>
                                         </a>
                                     </li>
                                     <li class="a_ticket_03_info">
@@ -475,8 +463,8 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide sec sec03">
+        </div>
+        <div class=" sec sec03">
                     <div class="container container03">
                         <div id="left">
                             <ul>
@@ -508,48 +496,6 @@
                             <a href="/aquarium/html/lotteaquarium_aquarist.html">자세히 보러가기</a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-
-    </div>
-    <div class="foot">
-        <div class="a_ticket_02">
-            <div class="ticket_left">
-                <p>입장마감까지 <strong>00시 00분 00초</strong> 남음
-                </p>
-            </div>
-            <div class="ticket_right">
-                <a href="#"><span class="material-symbols-outlined">
-                        confirmation_number
-                    </span>
-                    <h2>온라인 예매</h2>
-                </a>
-                <a href="#"><span class="material-symbols-outlined">
-                        task
-                    </span>
-                    <h2>예매 확인</h2>
-                </a>
-            </div>
-        </div>
-        <div class="footer_inner">
-            <ul>
-                <li><a href="/aquarium/html/lotteaquarium_introduce.html">아쿠아리움 소개</a><a href="#">사이트맵</a><a
-                        href="#">이용약관</a><a href="#">개인정보처리방침</a>
-                    <a href="#">영상정보처리 기기운영/관리방침</a><a href="#">그룹PR</a>
-                </li>
-                <li>
-                    <p>서울특별시 송파구 올림픽로300</p>
-                    <p>대표자 | 최홍훈</p>
-                    <p>전화 | 1661-2000</p>
-                    <p>전자우편주소 | happylotteworld@lotte.net</p>
-                </li>
-                <li>
-                    <p>사업자등록번호 | 230-85-02649</p>
-                    <p>통신판매업신고번호 | 송파 제1208호</p>
-                </li>
-            </ul>
         </div>
         <footer>
             <div class="left">
@@ -663,7 +609,37 @@
                 </select>
             </div>
         </footer>
+        <div class="footer_inner">
+            <ul>
+                <li><a href="/aquarium/html/lotteaquarium_introduce.html">아쿠아리움 소개</a><a href="#">사이트맵</a><a
+                        href="#">이용약관</a><a href="#">개인정보처리방침</a>
+                    <a href="#">영상정보처리 기기운영/관리방침</a><a href="#">그룹PR</a>
+                </li>
+                <li>
+                    <p>서울특별시 송파구 올림픽로300</p>
+                    <p>대표자 | 최홍훈</p>
+                    <p>전화 | 1661-2000</p>
+                    <p>전자우편주소 | happylotteworld@lotte.net</p>
+                </li>
+                <li>
+                    <p>사업자등록번호 | 230-85-02649</p>
+                    <p>통신판매업신고번호 | 송파 제1208호</p>
+                </li>
+            </ul>
+        </div>
+
     </div>
+    <!-- <div class="foot">
+        <div class="a_ticket_02">
+            <div class="ticket_left">
+                <p>입장마감까지 <strong>00시 00분 00초</strong> 남음
+                </p>
+            </div>
+            
+        </div> -->
+        
+        
+    <!-- </div> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script>
         var p_01 = new Swiper(".Page", {
