@@ -1521,8 +1521,6 @@ span {
     .a_ticket_01 span {
         font-size: 40px;
         color: #000;
-        transition: all 0.5s;
-
     }
     .a_ticket_01 a {
         display: flex;
