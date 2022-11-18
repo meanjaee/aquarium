@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 @font-face {
     font-family: 'NotoSans-Light';
@@ -271,7 +271,7 @@ border-radius: 15px;
 @media screen and (min-width:1440px) {
 
     .swiper {
-        height:700px;
+        height:calc(100vh - 200px);
     }
 
     .card.swiper-slide, .card.swiper-slide-active {
@@ -320,9 +320,9 @@ border-radius: 15px;
         font-family: 'NotoSans-Light';
     }
 
-    ::-webkit-scrollbar {
+    /* ::-webkit-scrollbar {
         display: none;
-    }
+    } */
 
     a {
         font-size: 16pt;
@@ -585,9 +585,17 @@ border-radius: 15px;
     }
 
     .card8 {
-        border-radius: 50px;
-        background: url(/aquarium/image/lotteauqarium/Banner.png);
-        padding: 0;
+        display: block;
+        background: #7e7feb;
+        color: #fff;
+        font-size: 16pt;
+    }
+    .card8 a{
+        border: 2px solid #fff;
+        font-size: 16pt;
+    }
+    .card8 a:hover{
+        color:#7e7feb ;
     }
 
 
@@ -595,6 +603,7 @@ border-radius: 15px;
         width: 1440px;
         background: url(/aquarium/image/lotteauqarium/bg_f.png);
         background-size: cover;
+        
     }
 
 
@@ -810,9 +819,9 @@ border-radius: 15px;
 
         /* @media screen and (min-width:1440px) { */
 
-        ::-webkit-scrollbar {
+        /* ::-webkit-scrollbar {
             display: none;
-        }
+        } */
 
         a {
             font-size: 16pt;
@@ -1083,7 +1092,17 @@ border-radius: 15px;
         }
 
         .card8 {
-            display: none;
+            display: block;
+            background: #7e7feb;
+            color: #fff;
+            font-size: 16pt;
+        }
+        .card8 a{
+            border: 2px solid #fff;
+            font-size: 16pt;
+        }
+        .card8 a:hover{
+            color:#7e7feb ;
         }
 
         .container02 {
@@ -1368,9 +1387,9 @@ border-radius: 15px;
 
         /* @media screen and (min-width:1440px) { */
 
-        ::-webkit-scrollbar {
-            display: none;
-        }
+            /* ::-webkit-scrollbar {
+                display: none;
+            } */
 
 
 
@@ -1901,9 +1920,9 @@ border-radius: 15px;
 
         /* @media screen and (min-width:1440px) { */
 
-        ::-webkit-scrollbar {
+        /* ::-webkit-scrollbar {
             display: none;
-        }
+        } */
 
 
         a {
@@ -2151,7 +2170,17 @@ border-radius: 15px;
         
 
         .card8 {
-            display: none;
+            display: block;
+            background: #7e7feb;
+            color: #fff;
+            font-size: 16pt;
+        }
+        .card8 a{
+            border: 2px solid #fff;
+            font-size: 16pt;
+        }
+        .card8 a:hover{
+            color:#7e7feb ;
         }
 
         .img {

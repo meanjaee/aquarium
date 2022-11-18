@@ -82,6 +82,10 @@ span {
     line-height: 0;
 }
 
+.go{
+    color: red;
+}
+
 @media screen and (min-width:1440px) {
 
     body {
@@ -100,7 +104,7 @@ span {
 
     .sec {
         height: calc(100vh - 200px);
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
 
     a {
@@ -341,18 +345,14 @@ span {
     }
 
     .a_ticket_02 {
-        position: fixed;
-        width: 100%;
+        /* position: fixed; */
+        width: 1440px;
         height: 60px;
         padding: 0 20px;
         display: flex;
-        background: #495dc0;
-        z-index: 100;
-        bottom: 60px;
-        transform: translateY(0);
-        transition: all 0.5s;
-        justify-content: space-between;
-        align-items: center;
+        margin: 0 auto;
+        
+        
         color: #Fff;
     }
 
@@ -603,6 +603,7 @@ span {
     .sec {
         width: 100vw;
         height: calc(100vh - 200px);
+    margin-bottom: 80px;    
     }
 
     a {
@@ -656,8 +657,8 @@ span {
 
 
     .inner {
-        margin: 80px 0 120px;
-        height: calc(100vh - 200px);
+        margin: 80px 0 0;
+        height: calc(100vh - 80px);
     }
 
     .platform {
