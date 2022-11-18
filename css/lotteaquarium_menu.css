@@ -82,7 +82,7 @@ span {
     line-height: 0;
 }
 
-.go{
+.go {
     color: red;
 }
 
@@ -137,12 +137,10 @@ span {
     .nav a, .nav h2 {
         color: #000;
         font-size: 12pt;
-
     }
     .global_01 {
         width: 100%;
     }
-
     .global_01 .inner {
         width: 100%;
         max-width: 1440px;
@@ -154,13 +152,11 @@ span {
         justify-content: space-between;
         overflow: hidden;
     }
-
-
     .inner {
         margin: 80px 0 0;
         height: calc(100vh - 80px);
+        overflow-y: scroll;
     }
-
     .platform {
         width: 200px;
         padding: 20px;
@@ -168,45 +164,33 @@ span {
         display: flex;
         flex-direction: column;
     }
-
     .platform a {
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
-
     .platform span {
         font-size: 60px;
     }
-
-
-
     .brands_nav {
         padding: 10px;
         gap: 10px;
     }
-
     .brands_nav h1 {
         font-size: 30pt;
     }
-
     .brands_nav h2 {
         font-size: 40pt;
         line-height: 75px;
     }
-
     .a_ticket_01 {
         display: flex;
         flex-direction: row;
     }
-
     .a_ticket_01 span {
         font-size: 80px;
         color: #000;
-        
-
     }
-
     .a_ticket_01 a {
         display: flex;
         flex-direction: column;
@@ -215,14 +199,12 @@ span {
         padding: 20px 20px;
         gap: 30px;
     }
-
     .a_ticket_01 h2 {
         color: #000;
-        
+
         font-size: 20pt;
         line-height: 0;
     }
-
     .global_02 {
         width: 100%;
         max-width: 1440px;
@@ -233,12 +215,10 @@ span {
         border-top: 1px solid #000;
         overflow: hidden;
     }
-
     .global_02 nav {
         width: 100%;
         padding: 20px 0;
     }
-
     .global_02 ul {
         display: flex;
         flex-direction: column;
@@ -246,14 +226,10 @@ span {
         padding: 0;
         align-items: flex-start;
     }
-
     .global_02 h2 {
         color: #000;
         font-size: 16pt;
     }
-
-
-
     header, footer {
         position: fixed;
         width: 100%;
@@ -264,7 +240,6 @@ span {
         align-items: center;
         z-index: 100;
     }
-
     header {
         top: 0;
         height: 80px;
@@ -274,19 +249,14 @@ span {
         /* background: #fff; */
         line-height: 0;
         background: #b6e9fc;
-
     }
-
     header a, header button {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 30px;
         color: #000;
-
-
     }
-
     header button {
         gap: 15px;
         display: flex;
@@ -294,33 +264,25 @@ span {
         background: none;
         border: none;
         transition: all 0.5s;
-
-
-
     }
-
     button .material-symbols-outlined {
         font-size: 40px;
     }
-
     header button:active {
         border: none;
         background: none;
     }
-
     header img {
         width: 70px;
         height: 60px;
         margin-right: 20px;
     }
-
     header .language {
         font-size: 20pt;
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
-
     header #logo {
         display: flex;
         flex-direction: row;
@@ -329,13 +291,11 @@ span {
         gap: 20px;
         font-size: 30px;
         line-height: 0;
-
     }
     #logo a {
         margin: 0;
         padding: 0;
     }
-
     footer p {
         margin: 20px auto;
         display: block;
@@ -343,7 +303,6 @@ span {
         color: #fff;
         font-family: 'NotoSans-Light';
     }
-
     .a_ticket_02 {
         /* position: fixed; */
         width: 1440px;
@@ -351,11 +310,8 @@ span {
         padding: 0 20px;
         display: flex;
         margin: 0 auto;
-        
-        
         color: #Fff;
     }
-
     .a_ticket_02 .ticket_left {
         display: flex;
         flex-direction: row;
@@ -364,224 +320,62 @@ span {
         color: #fff;
         font-size: 20pt;
     }
-
     .ticket_left strong {
         color: #ffa800;
     }
-
     .a_ticket_02 .ticket_right {
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
-    .a_ticket_02 .ticket_right a:hover > h2, .a_ticket_02 .ticket_right a:hover > span{
+    .a_ticket_02 .ticket_right a:hover > h2, .a_ticket_02 .ticket_right a:hover > span {
         color: orange;
     }
-
     .a_ticket_02 a {
         display: flex;
         flex-direction: row;
         gap: 20px;
         align-items: center;
     }
-
     .a_ticket_02 span {
         font-size: 40px;
         color: #fff;
     }
-
     .a_ticket_02 h2 {
         font-size: 20pt;
         color: #FFF;
     }
-
-    .foot footer {
-        position: fixed;
-        bottom: 0;
-        height: 60px;
+    footer{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        align-items: center;
+        width: 1440px;
+        margin: 0 auto;
+        height: 300px;
         justify-content: space-between;
-        background: #495dc0;
-        z-index: 100;
-        overflow: hidden;
-        transition: all 0.5s;
+        align-items:center;
     }
-
-    footer * {
-        font-size: 12pt;
+    footer .left{
+        display: flex;
+        flex-direction: row;
     }
-
-    footer p {
-        font-size: 20px;
-        line-height: 0;
+    footer .left ul{
+        display: table-column;
+        gap: 5px;
     }
-
-    footer .left {
-        padding: 0 20px;
+    footer .left .sns{
+        display: flex;
+        flex-direction: row;
         gap: 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
     }
-
-    .left button {
-        background: none;
-        border: none;
+    footer .right{
+        display: table-column;
     }
-
-    .left button span {
-        background: none;
-        color: #fff;
+    footer .right #lottehotel{
+        width: 40px;
+        padding: 5px 10px;
+        background:url(/aquarium/image/lotteauqarium/lottehotel.png);
+        display:table-column;
     }
-
-    footer .sns {
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .foot .footer_inner {
-        width: 100%;
-        /* height: 158px; */
-        height: 0;
-        overflow: hidden;
-        padding: 20px 30px;
-        flex-wrap: wrap;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 100;
-        transition: all 0.5s;
-        background: #495dc0;
-        color: #fff;
-    }
-
-    .footer_inner ul li {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-        gap: 20px;
-        color: #fff;
-    }
-    .footer_inner ul li p {
-        line-height: 10px;
-        font-size: 12pt;
-    }
-
-    .footer_inner ul li a {
-        color: #fff;
-        line-height: 30px;
-        font-size: 12pt;
-    }
-
-    footer .right {
-        width: 600px;
-        height: 60px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    footer .right select {
-        width: 50%;
-        height: 100%;
-        padding: 0 5px;
-        background: #495dc0;
-        color: #ffff;
-        border: 0.5px solid #b6e9fc;
-    }
-    select option {
-        border: 1px solid #b6e9fc;
-    }
-
-    footer .right select:active {
-        border: none;
-    }
-
-    footer .right select option {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    footer .right select a {
-        font-size: 12pt;
-    }
-
-    footer #lottehotel {
-        position: relative;
-        width: 50%;
-        height: 60px;
-        background: #000;
-        z-index: 150;
-    }
-
-    #lottehotel .text_wrap {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        background: url(/aquarium/image/lotteauqarium/lottehotel.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 0;
-        line-height: 0;
-        padding: 0 20px;
-
-    }
-
-    footer #lottehotel::before {
-        position: absolute;
-        display: flex;
-        content: "";
-        background: #000;
-        /* z-index: 150; */
-    }
-
-    footer #lotte {
-        position: absolute;
-        font-size: 16pt;
-        line-height: 0;
-    }
-
-    footer #hotel {
-        position: absolute;
-        top: 23px;
-        font-size: 12pt;
-
-    }
-
-    footer #lottehotel p {
-        font-size: 16pt;
-    }
-
-    .sns img {
-        width: 31.5px;
-        height: 30px;
-    }
-
-    .sns_hire {
-        gap: 30px;
-        padding: 0 30px;
-        display: flex;
-        align-items: center;
-    }
-
-    .foot.active footer {
-        transform: translateY(-158px);
-    }
-    .foot.active .a_ticket_02 {
-        transform: translateY(-158px);
-    }
-    .foot.active .footer_inner {
-        height: 158px;
-    }
-
 }
 
 @media screen and (min-width:890px) and (max-width:1440px) {
@@ -603,13 +397,13 @@ span {
     .sec {
         width: 100vw;
         height: calc(100vh - 200px);
-    margin-bottom: 80px;    
+        margin-bottom: 80px;
     }
 
     a {
         font-size: 16pt;
         color: #888;
-        
+
     }
 
     a:hover {
@@ -898,101 +692,7 @@ span {
         color: #FFF;
     }
 
-    .foot footer {
-        position: fixed;
-        bottom: 0;
-        height: 60px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background: #495dc0;
-        z-index: 100;
-        overflow: hidden;
-        transition: all 0.5s;
-    }
 
-    footer * {
-        font-size: 12pt;
-    }
-
-    footer p {
-        font-size: 12pt;
-        line-height: 0;
-    }
-
-    footer .left {
-        padding: 0 20px;
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .left button {
-        display: none;
-    }
-
-    .left button span {
-        background: none;
-        color: #fff;
-    }
-
-    footer .sns {
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .foot .footer_inner {
-        width: 100%;
-        /* height: 158px; */
-        height: 0;
-        overflow: hidden;
-        padding: 20px 30px;
-        flex-wrap: wrap;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 100;
-        transition: all 0.5s;
-        background: #495dc0;
-        color: #fff;
-    }
-
-    .footer_inner ul li {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-        gap: 20px;
-        color: #fff;
-    }
-    .footer_inner ul li p {
-        line-height: 10px;
-        font-size: 12pt;
-    }
-
-    .footer_inner ul li a {
-        color: #fff;
-        line-height: 30px;
-        font-size: 12pt;
-    }
-
-    footer .right {
-        display: none;
-    }
-
-    .foot.active footer {
-        transform: translateY(-158px);
-    }
-    .foot.active .a_ticket_02 {
-        transform: translateY(-158px);
-    }
-    .foot.active .footer_inner {
-        height: 158px;
-    }
 
 }
 
@@ -1020,7 +720,7 @@ span {
     a {
         font-size: 12pt;
         color: #888;
-        
+
     }
 
     a:hover {
@@ -1068,7 +768,7 @@ span {
 
     }
 
-    .platform { 
+    .platform {
         width: 200px;
         padding: 20px;
         gap: 50px;
@@ -1155,7 +855,7 @@ span {
         font-size: 16pt;
     }
 
-    .global_02 nav ul li{
+    .global_02 nav ul li {
         display: flex;
         justify-content: flex-start;
     }
@@ -1319,100 +1019,7 @@ span {
         color: #FFF;
     }
 
-    .foot footer {
-        position: fixed;
-        bottom: 0;
-        height: 60px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background: #495dc0;
-        z-index: 100;
-        overflow: hidden;
-        transition: all 0.5s;
-    }
 
-    footer * {
-        font-size: 12pt;
-    }
-
-    footer p {
-        font-size: 10pt;
-        line-height: 0;
-    }
-
-    footer .left {
-        padding: 0 20px;
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .left button {
-        display: none;
-    }
-
-    .left button span {
-        background: none;
-        color: #fff;
-    }
-
-    footer .sns {
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .foot .footer_inner {
-        width: 100%;
-        /* height: 158px; */
-        height: 0;
-        overflow: hidden;
-        padding: 20px 30px;
-        flex-wrap: wrap;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 100;
-        transition: all 0.5s;
-        background: #495dc0;
-        color: #fff;
-    }
-
-    .footer_inner ul li {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-        gap: 20px;
-        color: #fff;
-    }
-    .footer_inner ul li p {
-        line-height: 10px;
-        font-size: 12pt;
-    }
-
-    .footer_inner ul li a {
-        color: #fff;
-        line-height: 30px;
-        font-size: 12pt;
-    }
-
-    footer .right {
-        display: none;
-    }
-    .foot.active footer {
-        transform: translateY(-158px);
-    }
-    .foot.active .a_ticket_02 {
-        transform: translateY(-158px);
-    }
-    .foot.active .footer_inner {
-        height: 158px;
-    }
 
 }
 
@@ -1426,7 +1033,7 @@ span {
         overflow-y: hidden;
     }
 
-    
+
 
     .sec {
         height: calc(100vh - 140px);
@@ -1471,7 +1078,7 @@ span {
     .nav ul li h2 {
         font-size: 16pt;
     }
-        
+
     .global_01 {
         width: 100%;
         height: 60px;
@@ -1513,7 +1120,6 @@ span {
     .brands_nav {
         display: none;
     }
-
     .a_ticket_01 {
         display: flex;
         flex-direction: row;
@@ -1533,7 +1139,6 @@ span {
     }
     .a_ticket_01 h2 {
         color: #000;
-        
         font-size: 16pt;
         line-height: 0;
     }
@@ -1575,7 +1180,7 @@ span {
         height: 100%;
     }
 
-    .global_02 nav ul li a{
+    .global_02 nav ul li a {
         margin-bottom: 15px;
 
     }
@@ -1599,7 +1204,6 @@ span {
         /* background: #fff; */
         line-height: 0;
         background: #b6e9fc;
-
     }
     header > a, header .language, header button {
         display: flex;
@@ -1607,8 +1211,6 @@ span {
         align-items: center;
         font-size: 20px;
         color: #000;
-
-
     }
     header button {
         gap: 15px;
@@ -1617,9 +1219,6 @@ span {
         background: none;
         border: none;
         transition: all 0.5s;
-
-
-
     }
     button .material-symbols-outlined {
         font-size: 40px;
@@ -1650,101 +1249,5 @@ span {
     #logo a {
         font-size: 0;
     }
-    footer p {
-        margin: 10px auto;
-        display: block;
-        font-size: 30px;
-        color: #fff;
-        font-family: 'NotoSans-Light';
-    }
 
-    .a_ticket_02 {
-        display: none;
-    }
-
-    .foot footer {
-        position: fixed;
-        bottom: 0;
-        height: 60px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #495dc0;
-        z-index: 100;
-        overflow: hidden;
-        transition: all 0.5s;
-    }
-    footer p {
-        font-size: 10pt;
-
-    }
-    footer .left {
-        width: 100%;
-        padding: 0 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        font-size: 16pt;
-
-    }
-    .left button {
-        display: none;
-    }
-    footer .sns {
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-    }
-    .foot .footer_inner {
-        display: none;
-    }
-    footer .right {
-        display: none;
-    }
-    footer .right select {
-        width: 50%;
-        height: 100%;
-        padding: 0 5px;
-        background: #495dc0;
-        color: #ffff;
-        border: 0.5px solid #b6e9fc;
-    }
-    select {
-        display: none;
-    }
-    footer .right select:active {
-        border: none;
-    }
-    footer .right select option {
-        width: 100%;
-        padding: 0 10px;
-    }
-    footer .right select a {
-        font-size: 12pt;
-    }
-    footer #lottehotel {
-        display: none;
-    }
-    .sns img {
-        width: 24px;
-        height: 20px;
-    }
-    .sns_hire {
-        gap: 30px;
-        padding: 0 30px;
-        display: flex;
-        align-items: center;
-    }
-    .foot.active footer {
-        transform: translateY(-158px);
-    }
-    .foot.active .a_ticket_02 {
-        transform: translateY(-158px);
-    }
-    .foot.active .footer_inner {
-        height: 158px;
-    }
 }

@@ -6,7 +6,7 @@
 }
 .notice {
     width: 1440px;
-    height: 100%;
+    height: calc(100vh - 200px);
     margin: 0 auto;
     background: #fff;
     display: flex;
