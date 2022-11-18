@@ -353,10 +353,14 @@ span {
         height: 300px;
         justify-content: space-between;
         align-items:center;
+        background: #495dc0;
+        border-top: #2e3a79;
     }
     footer .left{
         display: flex;
-        flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     }
     footer .left ul{
         display: table-column;
@@ -375,6 +379,16 @@ span {
         padding: 5px 10px;
         background:url(/aquarium/image/lotteauqarium/lottehotel.png);
         display:table-column;
+    }
+    footer li p, footer li a{
+        font-size: 12pt;
+        color: #fff;
+        line-height: 5px;
+    }
+    .go{
+        background: #fff;
+        border-radius: 10px;
+        padding: 0 10px;
     }
 }
 

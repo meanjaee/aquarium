@@ -325,6 +325,8 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 }
 .n_03 img{
     padding: 10px;
+    width: 20%;
+    height: 20%;
 }
 .p-1, .p-2{
     width: 100%;
