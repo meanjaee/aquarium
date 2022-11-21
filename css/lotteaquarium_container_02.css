@@ -325,8 +325,8 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 }
 .n_03 img{
     padding: 10px;
-    width: 20%;
-    height: 20%;
+    width: 50px;
+    height: 50px;
 }
 .p-1, .p-2{
     width: 100%;
@@ -377,7 +377,7 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 }
 
 .p-1 h2, .p-2 h2, .p-3 h2{
-    font-size: 16pt;
+    font-size: 12pt;
     text-align: center;
     
 }

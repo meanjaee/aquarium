@@ -30,8 +30,27 @@
 }
 
 ::-webkit-scrollbar {
-    display: none;
-}
+    width: 10px;
+    background:#f1f1f1;
+    opacity:0.5;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orange; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: orange;
+    
+  }
 
 a {
     text-decoration: none;
@@ -107,7 +126,7 @@ select{
         background-image: url(/aquarium/image/lotteauqarium/bg.png);
         background-repeat: no-repeat;
         background-size: cover;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 
     .ticket, .sec, .container1, .container1::before, .cardtab,
@@ -244,7 +263,7 @@ select{
         color: #000;
         font-size: 16pt;
     }
-    header, footer {
+    header {
         position: fixed;
         width: 100%;
         display: flex;
@@ -415,7 +434,7 @@ select{
         background-image: url(/aquarium/image/lotteauqarium/bg.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 
     .ticket, .sec, .container1, .container1::before, .cardtab,
@@ -729,7 +748,7 @@ select{
         background-image: url(/aquarium/image/lotteauqarium/bg.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 
     .ticket, .sec, .container1, .container1::before, .cardtab,
@@ -1051,7 +1070,7 @@ select{
         background-image: url(/aquarium/image/lotteauqarium/bg_m.png);
         background-repeat: no-repeat;
         background-size: cover;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 
 
