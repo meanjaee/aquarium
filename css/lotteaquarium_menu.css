@@ -1073,7 +1073,9 @@ select{
         /* overflow-y: hidden; */
     }
 
-
+    ::-webkit-scrollbar {
+        display: none;
+      }
 
     .sec {
         height: calc(100vh - 140px);
