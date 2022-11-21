@@ -15,6 +15,12 @@
     font-family: 'NotoSans-Bold';
 }
 
+.inner {
+    margin: 80px 0 0;
+    height: calc(100vh - 80px);
+    overflow:hidden;
+}
+
 .div_1 {
     width: 1440px;
     height: calc(100vh - 200px);
@@ -25,6 +31,10 @@
     align-items: center;
 
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
 
 .div_01 {
     width: 1440px;

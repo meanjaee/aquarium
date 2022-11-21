@@ -4,6 +4,11 @@
     font-family: 'NotoSans-Light';
     src: url(/aquarium/fonts/NotoSans-Light.ttf) format('ttf');
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
 .notice {
     width: 1440px;
     height: calc(100vh - 200px);

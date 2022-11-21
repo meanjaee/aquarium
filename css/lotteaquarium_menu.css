@@ -117,6 +117,12 @@ select{
     border: 1px solid #000;
     border-radius: 10px;
 }
+footer .left ul li {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 @media screen and (min-width:1440px) {
 
@@ -392,8 +398,8 @@ select{
     footer .left{
         display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
+    gap: 50px;
     }
     footer .left ul{
         display: table-column;
@@ -403,26 +409,41 @@ select{
         display: flex;
         flex-direction: row;
         gap: 20px;
+        align-items: center;
     }
-    footer .right{
-        display: table-column;
+    footer.left ul li{
+        gap: 10px;
     }
     footer .right #lottehotel{
-        width: 40px;
-        padding: 5px 10px;
+        width: 240px;
+        padding: 10px 10px;
         background:url(/aquarium/image/lotteauqarium/lottehotel.png);
-        display:table-column;
+        display:flex;   
+        flex-direction: column;
+        font-size: 12pt;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .right #lottehotel p{
+        font-size: 16pt;
+        line-height: 20px;
+        display: table;
+        justify-content: flex-start;
+        margin: 0;
+        align-items: center;
     }
     footer li p, footer li a{
         font-size: 12pt;
         color: #fff;
         line-height: 5px;
     }
+    
     .go{
         background: #fff;
         border-radius: 10px;
         padding: 5px 10px;
         width: fit-content;
+        color: #000;
     }
 }
 

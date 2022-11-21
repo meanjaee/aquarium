@@ -1298,14 +1298,25 @@ border-radius: 15px;
             padding: 0;
         }
 
-        .sec02 {
-            display: none;
-        }
+        /* .sec02 {
+            
+        } */
 
         .container02 {
-            display: none;
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
         }
+        .container02 .tab{
+            width: 100vw;}
 
+        .content{
+            width: 100%;
+            height: 0;
+        }
+        .content.active{
+            height: 100%;
+        }
         .swiper {
             /* width: 100vh; */
             height: calc(100vh - 200px);
