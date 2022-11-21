@@ -415,6 +415,7 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 }
 
 .parking div h2{
+    margin-top: 10px;
     font-size: 24px;
 }
 

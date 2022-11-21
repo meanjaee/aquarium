@@ -83,7 +83,20 @@ span {
 }
 
 .go {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #fff;
+    width: fit-content;
+}
+.go a{
     color: red;
+}
+
+select{
+    padding: 5px;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
 @media screen and (min-width:1440px) {
@@ -132,6 +145,7 @@ span {
         background-size: cover;
         justify-content: center;
         color: #fff;
+        background-repeat: no-repeat;
     }
 
     .nav a, .nav h2 {
@@ -167,7 +181,7 @@ span {
     .platform a {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        justify-content: space-between;
     }
     .platform span {
         font-size: 60px;
@@ -310,15 +324,15 @@ span {
         padding: 0 20px;
         display: flex;
         margin: 0 auto;
-        color: #Fff;
+        color: #000;
     }
     .a_ticket_02 .ticket_left {
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
-        color: #fff;
+        color: #000;
         font-size: 20pt;
+        gap: 30px;
     }
     .ticket_left strong {
         color: #ffa800;
@@ -388,7 +402,8 @@ span {
     .go{
         background: #fff;
         border-radius: 10px;
-        padding: 0 10px;
+        padding: 5px 10px;
+        width: fit-content;
     }
 }
 
@@ -428,7 +443,7 @@ span {
     .nav {
         display: none;
         width: 100%;
-        height: calc(100vh - 200px);
+        height: calc(100vh - 80px);
         flex-wrap: wrap;
         position: fixed;
         z-index: 100;
@@ -655,19 +670,14 @@ span {
     }
 
     .a_ticket_02 {
-        position: fixed;
         width: 100%;
         height: 60px;
-        padding: 0 20px;
         display: flex;
-        background: #495dc0;
-        z-index: 100;
         bottom: 60px;
-        transform: translateY(0);
-        transition: all 0.5s;
         justify-content: space-between;
         align-items: center;
-        color: #Fff;
+        color: #fff;
+        padding: 0 20px;
     }
 
     .a_ticket_02 .ticket_left {
@@ -675,8 +685,9 @@ span {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        color: #fff;
+        color: #000;
         font-size: 20pt;
+        gap: 30px;
     }
 
     .ticket_left strong {
@@ -976,15 +987,11 @@ span {
     }
 
     .a_ticket_02 {
-        position: fixed;
         width: 100%;
         height: 60px;
         padding: 0 20px;
         display: flex;
-        background: #495dc0;
-        z-index: 100;
-        bottom: 60px;
-        transform: translateY(0);
+            
         justify-content: space-between;
         align-items: center;
         color: #Fff;
