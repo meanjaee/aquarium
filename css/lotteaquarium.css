@@ -269,7 +269,7 @@ border-radius: 15px;
 @media screen and (min-width:1440px) {
 
     .swiper {
-        height:calc(100vh - 200px);
+        height:800px;
     }
 
     .card.swiper-slide, .card.swiper-slide-active {
@@ -1319,7 +1319,7 @@ border-radius: 15px;
         }
         .swiper {
             /* width: 100vh; */
-            height: calc(100vh - 200px);
+            height: calc(100vh - 80px);
             margin: 0 auto;
         }
 
@@ -2276,7 +2276,7 @@ border-radius: 15px;
             flex-direction: row;
             margin: 0 auto;
             padding: 0;
-            height: calc(100vh - 140px);
+            height: calc(100vh - 80px);
         }
 
 

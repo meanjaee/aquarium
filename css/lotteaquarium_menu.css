@@ -31,24 +31,29 @@
 
 ::-webkit-scrollbar {
     width: 10px;
-    background:#f1f1f1;
+    background:hsl(0, 0%, 95%, 0.2);
     opacity:0.5;
+    position: fixed;
+    z-index: 500;
   }
   
   /* Track */
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     border-radius: 10px;
+    opacity: 0.5;
   }
    
   /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: orange; 
+::-webkit-scrollbar-thumb {
+    background: hsl(39, 100%, 50%, 0.5); 
     border-radius: 10px;
+    opacity: 0.5;
+    background-clip: padding-box;
   }
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: orange;
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(39, 100%, 50%, 0.5);
     
   }
 
@@ -392,7 +397,7 @@ footer .left ul li {
         height: 300px;
         justify-content: space-between;
         align-items:center;
-        background: #495dc0;
+        /* background: #495dc0; */
         border-top: #2e3a79;
     }
     footer .left{
@@ -828,8 +833,8 @@ footer .left ul li {
 
 
     .inner {
-        margin: 80px 0 120px;
-        height: calc(100vh - 200px);
+        margin: 80px 0 0;
+        height: calc(100vh - 80px);
 
     }
 

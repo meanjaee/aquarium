@@ -153,11 +153,10 @@ li.index.parking.active li{
 .a_ticket_03{
     width: 20%;
     height: 100%;
-    padding: 50px 0;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
 }
 
 .a_ticket_03 a {
@@ -200,7 +199,7 @@ li.index.parking.active li{
     /* display: flex; */
 }
 .a_ticket_03_info ul{
-    padding: 0;
+    padding: 0 10px;
 }
 
 .a_ticket_03_check{
@@ -457,7 +456,10 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 
 
 @media screen and (min-width:1440px) {
-    
+    button.tab h1{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
