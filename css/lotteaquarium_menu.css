@@ -23,8 +23,25 @@
     box-sizing: border-box;
     font-family: 'NotoSans-Light';
     list-style-type: none;
-
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
 }
+    h1{
+        margin: 0;
+    }
+    h1{
+        font-size: 1.25em;
+    }
+
+    a, h2{
+        font-size: 1em;
+    }
+    p{
+        font-size: 0.75em;
+    }
+    
+
 .eapps-link {
     display: none;
 }
@@ -79,10 +96,6 @@ span {
     line-height: 20px;
 }
 
-.global_02 h2 {
-    color: #000;
-}
-
 .nav a:hover {
     color: orange;
 }
@@ -101,9 +114,8 @@ span {
 
 .a_ticket_01 h2 {
     color: #000;
-
     font-size: 20pt;
-    line-height: 0;
+    line-height: 3;
 }
 
 .go {
@@ -119,7 +131,7 @@ span {
 select{
     padding: 5px;
     background: none;
-    border: 1px solid #000;
+    box-shadow: 0 2px 4px #2e3a79;
     border-radius: 10px;
 }
 footer .left ul li {
@@ -127,6 +139,7 @@ footer .left ul li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width:1440px) {
@@ -178,10 +191,7 @@ footer .left ul li {
         background-repeat: no-repeat;
     }
 
-    .nav a, .nav h2 {
-        color: #000;
-        font-size: 12pt;
-    }
+    
     .global_01 {
         width: 100%;
     }
@@ -243,12 +253,7 @@ footer .left ul li {
         padding: 20px 20px;
         gap: 30px;
     }
-    .a_ticket_01 h2 {
-        color: #000;
-
-        font-size: 20pt;
-        line-height: 0;
-    }
+    
     .global_02 {
         width: 100%;
         max-width: 1440px;
@@ -408,6 +413,7 @@ footer .left ul li {
     }
     footer .left ul{
         display: table-column;
+        padding: 0;
         gap: 5px;
     }
     footer .left .sns{
@@ -463,25 +469,13 @@ footer .left ul li {
         /* overflow-y: hidden; */
     }
 
-    .ticket, .sec, .container1, .container1::before, .cardtab,
-    #left ul li, #right .background, #right:hover > .background {
-        width: 100%;
-    }
-
-    .sec {
-        width: 100vw;
-        height: calc(100vh - 200px);
-        margin-bottom: 80px;
-    }
+    
 
     a {
-        font-size: 16pt;
         color: #888;
-
     }
 
     a:hover {
-        /* font-size: 18pt; */
         color: #000;
     }
 
@@ -492,7 +486,6 @@ footer .left ul li {
         flex-wrap: wrap;
         position: fixed;
         z-index: 100;
-        /* background: #fff; */
         background: url(/aquarium/image/lotteauqarium/header.png);
         background-size: cover;
         justify-content: center;
@@ -501,30 +494,16 @@ footer .left ul li {
         top: 80px;
     }
 
-    .nav a, .nav h2 {
-        color: #000;
-    }
-    .nav a:hover {
-        color: orange;
-    }
+    
     .global_01 {
         width: 100%;
     }
 
-    .global_01 .inner {
-        width: 100%;
-        max-width: 1440px;
-        height: 240px;
-        margin: 0 auto;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        overflow: hidden;
-    }
+    
 
 
     .inner {
+        width: 100vw;
         margin: 80px 0 0;
         height: calc(100vh - 80px);
     }
@@ -578,11 +557,7 @@ footer .left ul li {
         gap: 20px;
     }
 
-    .a_ticket_01 h2 {
-        color: #000;
-        font-size: 16pt;
-        line-height: 0;
-    }
+    
 
     .global_02 {
         width: 100%;
@@ -609,10 +584,7 @@ footer .left ul li {
         gap: 20px;
     }
 
-    .global_02 h2 {
-        color: #000;
-        font-size: 20pt;
-    }
+    
 
     ul {
         list-style-type: none;
@@ -620,7 +592,7 @@ footer .left ul li {
         padding: 0;
     }
 
-    header, footer {
+    header {
         position: fixed;
         width: 100%;
         display: flex;
@@ -649,8 +621,14 @@ footer .left ul li {
         align-items: center;
         font-size: 30px;
         color: #000;
+    
 
-
+    }
+    .sns, .right{
+        display: none;
+    }
+    footer{
+        height: 200px;
     }
 
     header button {
@@ -801,7 +779,7 @@ footer .left ul li {
     .nav {
         display: none;
         width: 100%;
-        height: calc(100vh - 200px);
+        height: calc(100vh - 80px);
         flex-wrap: wrap;
         position: fixed;
         z-index: 100;
@@ -884,12 +862,6 @@ footer .left ul li {
         gap: 10px;
     }
 
-    .a_ticket_01 h2 {
-
-        font-size: 16pt;
-        line-height: 0;
-    }
-
     .a_ticket_01 a:hover > span {
         color: orange;
     }
@@ -919,6 +891,7 @@ footer .left ul li {
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
+        margin-top: 10px;
     }
 
     .global_02 h2 {
@@ -1016,6 +989,7 @@ footer .left ul li {
     }
     #logo a {
         font-size: 0;
+        width: 70px;
     }
 
     #logo img {
@@ -1099,17 +1073,13 @@ footer .left ul li {
         /* overflow-y: hidden; */
     }
 
-    ::-webkit-scrollbar {
-        display: none;
-      }
-
     .sec {
-        height: calc(100vh - 140px);
+        width: calc(100vw - 30px);
+        margin: 0 auto;
+        height: auto;
     }
 
-    .sec02 {
-        display: none;
-    }
+    
 
     a {
         font-size: 12pt;
@@ -1163,7 +1133,7 @@ footer .left ul li {
 
 
     .inner {
-        height: calc(100vh - 140px);
+        height: calc(100vh - 80px);
         margin: 80px 0 60px;
         overflow-y: scroll;
 
@@ -1193,7 +1163,9 @@ footer .left ul li {
         display: flex;
         flex-direction: row;
         gap: 30px;
-        padding-bottom: 40px;
+        width: 100%;
+        height: 60px;
+        justify-content: center;
     }
     .a_ticket_01 span {
         font-size: 40px;
@@ -1239,8 +1211,7 @@ footer .left ul li {
         display: none;
     }
     .global_02 h2 {
-        color: #000;
-        font-size: 16pt;
+        margin: 20px 0;
     }
     ul {
         list-style-type: none;
@@ -1249,12 +1220,12 @@ footer .left ul li {
         height: 100%;
     }
 
-    .global_02 nav ul li a {
+    .global_02 nav ul li{
         margin-bottom: 15px;
 
     }
 
-    header, footer {
+    header {
         position: fixed;
         width: 100%;
         display: flex;
@@ -1319,4 +1290,18 @@ footer .left ul li {
         font-size: 0;
     }
 
+    footer{
+        height: 150px;
+        color: #fff;
+    }
+    .sns, .right{
+        display: none;
+    }
+    footer li a{
+        color: #fff;
+    }
+
+    footer li .go{
+        color: #000;
+    }
 }

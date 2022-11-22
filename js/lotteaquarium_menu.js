@@ -18,4 +18,10 @@ $(document).ready(function () {
             return text === 'CLOSE' ? 'MENU' : 'CLOSE';
         });1
     });
+
+    if($(window).width()<640){
+        $(".global_02 h2").click(function(){
+        $(this).next("ul").stop().slideToggle()
+    })
+    }
 });

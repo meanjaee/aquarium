@@ -1,26 +1,33 @@
-<li class="a_ticket_03_check">
+<li class="a_ticket_03_check">  
+                                        <h2></h2>
                                         <form>
-                                            <h2>예매 확인번호</h2>
+                                            <p>예매 확인번호</p>
                                             <input type="search" name="ticket" value="확인번호를 입력하세요.">
                                         </form>
-                                        
-                                            <ul class="a03_info_warning">
-                                                <li>어린이는 36개월 이상 / 만 12세, 경로는 만 65세 이상, 청소년은 만 13세 이상입니다.</li>
-                                                <li>0~36개월 미만 유아는 입장이 무료입니다.(단체입장객 제외)
-                                                    <br>| 단체 입장객 : 15인 이상
-                                                    <br>| 입장 시 증빙서류(가족관계증명서 등)가 필요하며, 직계가족에 한합니다.
-                                                </li>
-                                                <li>장애인 우대 (동반 2인 포함) 40% 할인 (현장발권에 한함/패키지권 제외)</li>
-                                                <li>국가 유공자 우대(동반 1인 포함) 40% 할인 (현장발권에 한함/패키지권 제외)</li>
-                                                <li>홈페이지 회원 우대 : 6,000원 할인 | [온라인 예매]탭 [이용권 예매]탭 [일반우대]에서 바로 적용 및 결제
-                                                </li>
-                                                <li>유료 프로그램을 이요하시는 학교 단체의 경우 참여자 명단을 바탕으로 수료증이 발급되오니 정확하게 작성해주시기
-                                                    바랍니다.
-                                                    <br>결제 완료 후에는 명단 수정이 불가능 합니다.
-                                                </li>
-                                                <li>아쿠아리움&서울스카이 패키지권은 사용 당일 모두 방문하셔야 합니다
-                                                    <br>(패키지 이용전 100% 환불, 1개 업장 이용후 <strong>부분환불 불가</strong>)
-                                                </li>
-                                            </ul>
-                                        
+                                        <h2>로그인</h2>
+                                        <div id="login">
+                                            <form>
+                                                
+                                                <input type="text" name="id" value="ID">                                        
+                                                
+                                                <input type="password" name=password" value="PASSWORD">                                        
+                                            </form>
+                                            <form>
+                                                <label><input type="checkbox" id="checkbox">
+                                                아이디 저장</label>
+                                            </form>
+                                            <button><p>로그인</p></button>
+                                            <a href="#"><p>회원가입</p></a>
+                                            <div>
+                                            <a href="https://wwww.facebook.com">
+                                            <img src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-1/58978526_10158354585751729_7411073224387067904_n.png?stp=cp0_dst-png_p50x50&_nc_cat=1&ccb=1-7&_nc_sid=751413&_nc_ohc=zuJsafnEPI0AX-1rkO8&tn=s7lkon2__6h0KP6U&_nc_ht=scontent-ssn1-1.xx&oh=00_AfDfKD-0rUBMSr9iis-Nmygw3ue3MXNoUQ3z2p5INAGhxQ&oe=63A3BF65"
+                                            alt="facebook"></a>
+                                            <a href="https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=ko">
+                                            <img src="/aquarium/image/lotteauqarium/kakao.png" alt="kakao">
+                                            </a>
+                                            <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com">
+                                            <img src="/aquarium/image/lotteauqarium/naver.png" alt="naver">
+                                            </a>
+                                            </div>
+                                        </div>
                                     </li>

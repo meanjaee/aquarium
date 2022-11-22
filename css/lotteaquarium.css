@@ -27,6 +27,19 @@
     /* border: 1px solid red; */
 }
 
+.swiper{
+    width: calc(100vw - 30px);
+    height: calc(100vh - 200px);
+    margin: 0 auto;
+    padding: 0  ;
+}
+
+.swiper-wrapper{
+    width: calc(100vw - 30px);
+    height: auto;
+    margin: 0 auto;
+}
+
 .Banner.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
     margin: var(--swiper-pagination-bullet-vertical-gap, 12px) 0;
     display: block;
@@ -43,10 +56,7 @@
 }
 
 
-.swiper {
-    width: 100%;
-    margin: 80px auto;
-}
+
 
 
 .Banner .swiper-button-prev{
@@ -127,6 +137,7 @@ border-radius: 15px;
 
 .container03 ul {
     list-style-type: none;
+    width: 100%;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -156,7 +167,7 @@ border-radius: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 30px 30px 30px;
+    padding: 30px;
 }
 .title h2 {
     width: 100px;
@@ -266,11 +277,168 @@ border-radius: 15px;
     color: orange;
 }
 
+.card h2{
+    font-size: 2em;
+    line-height: normal;
+}
+
+.card {
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+.cardset {
+    display: none;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 50px;
+}
+.cardtab {
+    position: relative;
+    justify-content: center;
+    margin: 30px auto;
+    display: flex;
+    gap: 0 30px;
+    color: #000;
+    z-index: 50;
+}
+.cardtab li, .cardtab p {
+    font-size: 20pt;
+    color: #000;
+}
+.card swiper-wrapper {
+    width: 626px;
+    height: 546px;
+    position: relative;
+    z-index: 50;
+    margin: 0 auto;
+    padding: 40px 60px;
+    font-size: 1rem;
+
+}
+.card a {
+    position: absolute;
+    padding: 15px 20px 15px;
+    color: #fff;
+    transition: all 0.5s;
+    bottom: 60px;
+    left: 60px;
+    font-size: 1rem;
+}
+.card a:hover {
+    background: #fff;
+    border: 2px solid none;
+}
+
+.card1 {
+    display: block;
+    background: #3b972f;
+    color: #fff;
+    position: relative;
+}
+.card1 a {
+    border: 2px solid #fff;
+}
+.card1 a:hover {
+    color: #3b972fc5;
+}
+.cardset2, .cardset3, .cardset4 {
+    display: none;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0 50px;
+}
+.card2 {
+    display: block;
+    background: #ffa800;
+    color: #000;
+}
+.card2 a {
+    color: #000;
+    border: 2px solid #000;
+}
+.card2 a:hover {
+    color: #ffa800;
+    background: #000;
+}
+.card3 {
+    display: block;
+    background: #DC1111;
+    color: #fff;
+}
+.card3 a {
+    border: 2px solid #fff;
+}
+.card3 a:hover {
+    color: #DC1111;
+}
+.card4 {
+    display: block;
+    background: #19B000;
+    color: #fff;
+}
+.card4 a {
+    border: 2px solid #fff;
+}
+.card4 a:hover {
+    color: #19B000;
+}
+.card5 {
+    display: block;
+    background: #51ABFF;
+    color: #fff;
+}
+.card5 a {
+    border: 2px solid #fff;
+}
+.card5 a:hover {
+    color: #51ABFF;
+}
+.card6 {
+    display: block;
+    background: #0084FF;
+    color: #fff;
+}
+.card6 a {
+    border: 2px solid #fff;
+}
+.card6 a:hover {
+    color: #0084FF;
+}
+.card7 {
+    display: block;
+    background: #F0BB00;
+    color: #000;
+}
+.card7 a {
+    border: 2px solid #000;
+    color: #000;
+}
+.card7 a:hover {
+    background: #000;
+    color: #F0BB00;
+}
+.card8 {
+    border-radius: 50px;
+    background: #7e7feb;
+    color: #fff;
+}
+.card8 a{
+    border: 2px solid #fff;
+    color: #fff;
+}
+.card8 a:hover {
+    color: #7e7feb;
+}
+
 @media screen and (min-width:1440px) {
 
     .swiper {
-        height:800px;
-    }
+    width: 100%;
+    margin: 80px auto;
+}
+    
 
     .card.swiper-slide, .card.swiper-slide-active {
         width: 614px;
@@ -356,8 +524,6 @@ border-radius: 15px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        overflow: hidden;
-
     }
 
 
@@ -430,10 +596,6 @@ border-radius: 15px;
         color: #000;
         z-index: 50;
     }
-    .cardtab li, .cardtab p {
-        font-size: 20pt;
-        color: #000;
-    }
     .card swiper-wrapper {
         width: 626px;
         height: 546px;
@@ -450,6 +612,8 @@ border-radius: 15px;
         transition: all 0.5s;
         bottom: 60px;
         left: 60px;
+        font-size: 1em;
+        border: 2px solid #fff;
     }
     .card a:hover {
         background: #fff;
@@ -465,11 +629,7 @@ border-radius: 15px;
         font-size: 16pt;
         position: relative;
     }
-    .card1 a {
-        border: 2px solid #fff;
-        font-size: 16pt;
-
-    }
+    
     .card1 a:hover {
         color: #DC1111;
     }
@@ -495,11 +655,7 @@ border-radius: 15px;
         font-size: 16pt;
         color: #fff;
     }
-    .card2 a {
-        color: #fff;
-        font-size: 16pt;
-        border: 2px solid #fff;
-    }
+    
     .card2 a:hover {
         color: #19B000;
         background: #fff;
@@ -513,11 +669,7 @@ border-radius: 15px;
         font-size: 16pt;
         color: #000;
     }
-    .card3 a {
-        color: #000;
-        border: 2px solid #000;
-        font-size: 16pt;
-    }
+    
     .card3 a:hover {
         background: #000;
         color: #ffa800;
@@ -530,10 +682,7 @@ border-radius: 15px;
         color: #fff;
         font-size: 16pt;
     }
-    .card4 a {
-        border: 2px solid #fff;
-        font-size: 16pt;
-    }
+    
     .card4 a:hover {
         color: #19B000;
     }
@@ -560,10 +709,7 @@ border-radius: 15px;
         color: #fff;
         font-size: 16pt;
     }
-    .card6 a {
-        border: 2px solid #fff;
-        font-size: 16pt;
-    }
+    
     .card6 a:hover {
         color: #0084FF;
     }
@@ -574,10 +720,7 @@ border-radius: 15px;
         color: #fff;
         font-size: 16pt;
     }
-    .card7 a {
-        border: 2px solid #fff;
-        font-size: 16pt;
-    }
+    
     .card7 a:hover {
         color: #51ABFF;
     }
@@ -588,10 +731,7 @@ border-radius: 15px;
         color: #fff;
         font-size: 16pt;
     }
-    .card8 a{
-        border: 2px solid #fff;
-        font-size: 16pt;
-    }
+    
     .card8 a:hover{
         color:#7e7feb ;
     }
@@ -707,12 +847,7 @@ border-radius: 15px;
             width: 14%;
         }
 
-        .swiper {
-            width: 100vw;
-            height: calc(100vh - 200px);
-
-
-        }
+        
 
         .swiper-bullet {
             width: 100%;
@@ -779,12 +914,6 @@ border-radius: 15px;
             margin: 0 auto;
             justify-content: space-between;
             overflow: hidden;
-        }
-
-        .swiper-wrapper {
-            width: 100%;
-            height: 59.4444vw;
-            margin: 0 auto;
         }
 
         .swiper-button {
@@ -916,192 +1045,7 @@ border-radius: 15px;
             z-index: 20;
         }
 
-        .card {
-            padding: 20px 40px;
-            border-radius: 50px;
-        }
-
-        .cardset {
-            display: none;
-            justify-content: flex-start;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0 50px;
-        }
-        .cardtab {
-            position: relative;
-            justify-content: center;
-            margin: 30px auto;
-            display: flex;
-            gap: 0 30px;
-            color: #000;
-            z-index: 50;
-        }
-        .cardtab li, .cardtab p {
-            font-size: 20pt;
-            color: #000;
-        }
-        .card swiper-wrapper {
-            width: 626px;
-            height: 546px;
-            position: relative;
-            z-index: 50;
-            margin: 0 auto;
-            padding: 40px 60px;
-
-        }
-        .card a {
-            position: absolute;
-            padding: 15px 20px 15px;
-            color: #fff;
-            transition: all 0.5s;
-            bottom: 60px;
-            left: 60px;
-        }
-        .card a:hover {
-            background: #fff;
-            color: #000;
-            border: 2px solid none;
-        }
-
-
-        .card1 {
-            display: block;
-            background: #3b972f;
-            color: #fff;
-            font-size: 16pt;
-            position: relative;
-        }
-        .card1 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-
-        }
-        .card1 a:hover {
-            color: #3b972fc5;
-        }
-
-
-        .cardset2, .cardset3, .cardset4 {
-            display: none;
-            justify-content: flex-start;
-            /* display: flex; */
-            flex-wrap: wrap;
-            gap: 0 50px;
-            font-size: 16pt;
-        }
-
-        .card2 a, .card3 a, .card4 a {
-            font-size: 16pt;
-        }
-
-
-        .card2 {
-            display: block;
-            background: #ffa800;
-            font-size: 16pt;
-            color: #000;
-        }
-        .card2 a {
-            color: #000;
-            font-size: 16pt;
-            border: 2px solid #000;
-        }
-        .card2 a:hover {
-            color: #ffa800;
-            background: #000;
-
-        }
-
-
-        .card3 {
-            display: block;
-            background: #DC1111;
-            font-size: 16pt;
-            color: #fff;
-        }
-        .card3 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card3 a:hover {
-            color: #DC1111;
-        }
-
-
-        .card4 {
-            display: block;
-            background: #19B000;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card4 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card4 a:hover {
-            color: #19B000;
-        }
-
-
-        .card5 {
-            display: block;
-            background: #51ABFF;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card5 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card5 a:hover {
-            color: #51ABFF;
-        }
-
-
-        .card6 {
-            display: block;
-            background: #0084FF;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card6 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card6 a:hover {
-            color: #0084FF;
-        }
-
-        .card7 {
-            display: block;
-            background: #F0BB00;
-            color: #000;
-            font-size: 16pt;
-        }
-        .card7 a {
-            border: 2px solid #000;
-            color: #000;
-            font-size: 16pt;
-        }
-        .card7 a:hover {
-            background: #000;
-            color: #F0BB00;
-        }
-
-        .card8 {
-            display: block;
-            background: #7e7feb;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card8 a{
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card8 a:hover{
-            color:#7e7feb ;
-        }
+        
 
         .container02 {
             background: url(/aquarium/image/lotteauqarium/bg_f.png);
@@ -1345,11 +1289,7 @@ border-radius: 15px;
             right: auto;
         }
 
-        .card.swiper-slide, .card.swiper-slide-active {
-            width: 100%;
-            height: 100%;
-
-        }
+        
 
         .swiper .banner {
             position: absolute;
@@ -1360,11 +1300,7 @@ border-radius: 15px;
             overflow: hidden;
         }
 
-        .swiper-wrapper {
-            /* width: 100vh; */
-            height: 59.4444vw;
-            margin: 0 auto;
-        }
+        
 
         .swiper-button {
             align-items: center;
@@ -1496,185 +1432,6 @@ border-radius: 15px;
             opacity: 0.5;
             overflow: hidden;
             z-index: 20;
-        }
-
-        .card {
-            padding: 20px 40px;
-            border-radius: 50px;
-        }
-
-        .cardset {
-            display: none;
-            justify-content: flex-start;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0 50px;
-        }
-        .cardtab {
-            position: relative;
-            justify-content: center;
-            margin: 30px auto;
-            display: flex;
-            gap: 0 30px;
-            color: #000;
-            z-index: 50;
-        }
-        .cardtab li, .cardtab p {
-            font-size: 20pt;
-            color: #000;
-        }
-        .card swiper-wrapper {
-            width: 626px;
-            height: 546px;
-            position: relative;
-            z-index: 50;
-            margin: 0 auto;
-            padding: 40px 60px;
-
-        }
-        .card a {
-            position: absolute;
-            padding: 15px 20px 15px;
-            color: #fff;
-            transition: all 0.5s;
-            bottom: 60px;
-            left: 60px;
-        }
-        .card a:hover {
-            background: #fff;
-            color: #000;
-            border: 2px solid none;
-        }
-
-
-        .card1 {
-            display: block;
-            background: #3b972f;
-            color: #fff;
-            font-size: 16pt;
-            position: relative;
-        }
-        .card1 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-
-        }
-        .card1 a:hover {
-            color: #3b972fc5;
-        }
-
-
-        .cardset2, .cardset3, .cardset4 {
-            display: none;
-            justify-content: flex-start;
-            /* display: flex; */
-            flex-wrap: wrap;
-            gap: 0 50px;
-            font-size: 16pt;
-        }
-
-        .card2 a, .card3 a, .card4 a {
-            font-size: 16pt;
-        }
-
-
-        .card2 {
-            display: block;
-            background: #ffa800;
-            font-size: 16pt;
-            color: #000;
-        }
-        .card2 a {
-            color: #000;
-            font-size: 16pt;
-            border: 2px solid #000;
-        }
-        .card2 a:hover {
-            color: #ffa800;
-            background: #000;
-
-        }
-
-
-        .card3 {
-            display: block;
-            background: #DC1111;
-            font-size: 16pt;
-            color: #fff;
-        }
-        .card3 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card3 a:hover {
-            color: #DC1111;
-        }
-
-
-        .card4 {
-            display: block;
-            background: #19B000;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card4 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card4 a:hover {
-            color: #19B000;
-        }
-
-
-        .card5 {
-            display: block;
-            background: #51ABFF;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card5 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card5 a:hover {
-            color: #51ABFF;
-        }
-
-
-        .card6 {
-            display: block;
-            background: #0084FF;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card6 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card6 a:hover {
-            color: #0084FF;
-        }
-
-        .card7 {
-            display: block;
-            background: #F0BB00;
-            color: #000;
-            font-size: 16pt;
-        }
-        .card7 a {
-            border: 2px solid #000;
-            color: #000;
-            font-size: 16pt;
-        }
-        .card7 a:hover {
-            background: #000;
-            color: #F0BB00;
-        }
-
-        .card8 {
-            border-radius: 50px;
-            background: url(/aquarium/image/lotteauqarium/Banner.png);
-            padding: 0;
         }
 
         .img {
@@ -1847,14 +1604,12 @@ border-radius: 15px;
             font-size: 12pt;
         }
 
-        .container02 {
-            display: none;
-        }
+        
 
         .swiper {
             width: 100%;
             height: calc(100vh - 140px);
-            margin: 0;
+            margin: 0 auto;
         }
 
         .swiper-bullet {
@@ -1885,7 +1640,8 @@ border-radius: 15px;
         }
 
         .card.swiper-slide, .card.swiper-slide-active {
-            height: 85%;
+            width: calc(100vw - 30px);
+            height:85%;
         }
 
         .swiper .banner {
@@ -1897,11 +1653,7 @@ border-radius: 15px;
             overflow: hidden;
         }
 
-        .swiper-wrapper {
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-        }
+        
 
         .swiper-button {
             display: none;
@@ -2002,195 +1754,7 @@ border-radius: 15px;
             z-index: 20;
         }
 
-        .card {
-            padding: 20px 40px;
-            border-radius: 50px;
-        }
-
-        .cardset {
-            display: none;
-            justify-content: flex-start;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0 50px;
-        }
-        .cardtab {
-            position: relative;
-            justify-content: center;
-            margin: 30px auto;
-            display: flex;
-            gap: 0 30px;
-            color: #000;
-            z-index: 50;
-        }
-        .cardtab li, .cardtab p {
-            font-size: 20pt;
-            color: #000;
-        }
-        .card swiper-wrapper {
-            width: 626px;
-            height: 546px;
-            position: relative;
-            z-index: 50;
-            margin: 0 auto;
-            padding: 40px 60px;
-
-        }
-        .card a {
-            position: absolute;
-            padding: 15px 20px 15px;
-            color: #fff;
-            transition: all 0.5s;
-            bottom: 60px;
-            left: 60px;
-        }
-        .card a:hover {
-            background: #fff;
-            color: #000;
-            border: 2px solid none;
-        }
-
-
-        .card1 {
-            display: block;
-            background: #DC1111;
-            color: #fff;
-            font-size: 16pt;
-            position: relative;
-        }
-        .card1 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-
-        }
-        .card1 a:hover {
-            color: #DC1111;
-        }
-
-
-        .cardset2, .cardset3, .cardset4 {
-            display: none;
-            justify-content: flex-start;
-            /* display: flex; */
-            flex-wrap: wrap;
-            gap: 0 50px;
-            font-size: 16pt;
-        }
-
-        .card2 a, .card3 a, .card4 a {
-            font-size: 16pt;
-        }
-
-
-        .card2 {
-            display: block;
-            background: #3b972f;
-            font-size: 16pt;
-            color: #fff;
-        }
-        .card2 a {
-            color: #fff;
-            font-size: 16pt;
-            border: 2px solid #fff;
-        }
-        .card2 a:hover {
-            color: #3b972f;
-            background: #fff;
-
-        }
-
-
-        .card3 {
-            display: block;
-            background: #ffa800;
-            font-size: 16pt;
-            color: #000;
-        }
-        .card3 a {
-            border: 2px solid #000;
-            font-size: 16pt;
-            color: #000;
-            
-        }
-        .card3 a:hover {
-            color: #ffa800;
-            background-color: #000;
-        }
-
-
-        .card4 {
-            display: block;
-            background: #19B000;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card4 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card4 a:hover {
-            color: #19B000;
-        }
-
-        .card5 {
-            display: block;
-            background: #F0BB00;
-            color: #000;
-            font-size: 16pt;
-        }
-        .card5 a {
-            border: 2px solid #000;
-            color: #000;
-            font-size: 16pt;
-        }
-        .card5 a:hover {
-            background: #000;
-            color: #F0BB00;
-        }
-
-
-        .card6 {
-            display: block;
-            background: #0084FF;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card6 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card6 a:hover {
-            color: #0084FF;
-        }
-
-        .card7 {
-            display: block;
-            background: #51ABFF;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card7 a {
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card7 a:hover {
-            color: #51ABFF;
-        }
         
-
-        .card8 {
-            display: block;
-            background: #7e7feb;
-            color: #fff;
-            font-size: 16pt;
-        }
-        .card8 a{
-            border: 2px solid #fff;
-            font-size: 16pt;
-        }
-        .card8 a:hover{
-            color:#7e7feb ;
-        }
 
         .img {
             padding: 0 60px;
@@ -2268,8 +1832,9 @@ border-radius: 15px;
         }
 
         .container{
-            width: 100%;
-            height: 100%;
+            width: calc(100vw - 30px);
+            height: calc(100vh - 200px);
+            margin-bottom: 80px;
         }
         .container03 {
             display: flex;

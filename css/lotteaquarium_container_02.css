@@ -1,3 +1,5 @@
+*{padding:0 ;}
+
 @font-face {
     font-family: 'NotoSans-Bold';
     src: url(/aquarium/fonts/NotoSans-Bold.ttf);
@@ -6,6 +8,17 @@
 @font-face {
     font-family: 'NotoSans-Bold';
     src: url(/aquarium/fonts/NotoSans-Light.ttf);
+}
+.a03_info{
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.a03_info_warning, .text{
+    padding-left: 30px;
+}
+.a03_info_warning{
+    padding: 30px;
+    border-top: 1px solid #000;
 }
 
 .content {
@@ -29,6 +42,9 @@
     border: none;
     background: none;
     font-size: 20px;
+    box-shadow: 0 4px 4px #ababab;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .tab {
@@ -56,7 +72,7 @@
 .content .inner_2 {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -76,7 +92,6 @@
     padding: 0 100px;
     padding-bottom: 20px;
     overflow: hidden;
-    border: 1px solid #000;
     border-radius: 30px;
 }
 .index > ul{
@@ -106,7 +121,7 @@ li.index.bus ul li {
     gap: 5px;
 }
 li.index.bus ul li p:nth-child(1){
-    width: 150px;
+    
     display: flex;
     padding: 10px;
     color: #fff;
@@ -143,7 +158,7 @@ li.index.parking.active li{
  ul#cost {
     display: flex;
     flex-direction: row;
-    
+    height: 100%;
 }
 .content > ul{
     padding:0 ;
@@ -151,7 +166,6 @@ li.index.parking.active li{
 
 }
 .a_ticket_03{
-    width: 20%;
     height: 100%;
     justify-content: space-between;
     display: flex;
@@ -169,17 +183,14 @@ li.index.parking.active li{
     border-radius: 30px;
     height: 130px;
     text-align: center;
+    gap: 5px;
 }
 
 .a_ticket_03 span{
     font-size: 40px;
 }
 
-.a_ticket_03 h2, span{
-    font-size: 16pt;
-    color: #000;
-    line-height: 10px;
-}
+
 
 .a_ticket_03 a:hover > h2,
 .a_ticket_03 a.on > h2 {
@@ -195,12 +206,9 @@ li.index.parking.active li{
 .a_ticket_03_info{
     width: 100%;
     height: 100%;
-    padding:0 ;
-    /* display: flex; */
+    padding-left: 30px;
 }
-.a_ticket_03_info ul{
-    padding: 0 10px;
-}
+
 
 .a_ticket_03_check{
     padding: 0;
@@ -209,6 +217,8 @@ li.index.parking.active li{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .a_ticket_03_check form{
@@ -219,9 +229,7 @@ li.index.parking.active li{
     gap: 30px;
     align-items: center;
 }
-form h2{
-    line-height: 0;
-}
+
 
 .a_ticket_03_check input{
     width: 250px;
@@ -259,7 +267,9 @@ form h2{
 
 .span{
     padding: 10px 20px;
-    border-bottom: 1px solid #000;
+    display: flex;
+    gap: 15px;
+   
 }
 
 .span button.active{
@@ -272,7 +282,7 @@ form h2{
     display: none;
 }
 .map.b1{
-    height: 100%;
+    height: calc(100vh - 100px);
     background: url(/aquarium/image/lotteauqarium/b1.png);
     background-repeat: no-repeat;
     background-position: center 60px;
@@ -281,8 +291,8 @@ form h2{
     margin: 0 auto;
 }
 .map.b2{
-
-    height: 100%;
+    height: calc(100vh - 100px);
+    
     background: url(/aquarium/image/lotteauqarium/b2.png);
     background-repeat: no-repeat;
     background-position: center 30px;
@@ -311,7 +321,7 @@ form h2{
     flex-direction: column;
 }
 .index h2{
-    margin: 5px 0;
+    margin-top: 10px;
 }
 button.p_01, button.p_02, button.p_03, button.p_04{
     border: none;
@@ -329,10 +339,12 @@ button.p_01, button.p_02, button.p_03, button.p_04{
     padding: 20px 0;
 }
 .n_03 .box.active{
+    height: calc(100vh - 300px);
     display: flex;
 }
 .n_02 ul{
     height: 100%;
+    height: calc(100vh - 600px);
 }
 .n_03 img{
     padding: 10px;
@@ -390,6 +402,7 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 .p-1 h2, .p-2 h2, .p-3 h2{
     font-size: 1pt;
     text-align: center;
+    line-height: 15px;
     
 }
 
@@ -427,7 +440,8 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 
 .parking div h2{
     margin-top: 10px;
-    font-size: 24px;
+    line-height: inherit
+    ;
 }
 
 
@@ -453,7 +467,60 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 
 }
 
+#login{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#login form{
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#login #checkbox{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+
+}
+
+#login form label{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#login button{
+    height: 40px;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background: brown;
+    color: #fff;
+    box-shadow: 0 2px 4px #ababab;
+}
+#login a{
+    width: fit-content;
+}
+
+#login div{
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#login img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px #ababab;
+}
 
 @media screen and (min-width:1440px) {
     button.tab h1{
@@ -466,27 +533,23 @@ button.p_01, button.p_02, button.p_03, button.p_04{
 @media screen and (min-width:360px) and (max-width:1440px) 
 {
     @media screen and (min-width:360px) and (max-width:1440px) {
-        .a03_info .text p{
-            font-size: 12pt;
-        }
-        .a03_info h2{
-            font-size: 12pt;
-        }
         
-        form h2{
-            line-height: 0;
-            font-size: 12pt;
-        }
     }
     @media screen and (min-width:360px) and (max-width:640px) {
+        .a_ticket_03_check form{
+            width: calc(100vw - 240px);
+        }
+        
         .container02 {
             display: flex;
             flex-direction: column;
-            width: 100vw;
+            width: calc(100vw - 30px);
             background: none;
+            height: auto;
         }
         .container02 .tab{
-            width: 100vw;
+            width: calc(100vw - 30px);
+            height: 100px;
             border:1px solid #f1f1f1;}
 
         .content{
@@ -494,7 +557,14 @@ button.p_01, button.p_02, button.p_03, button.p_04{
             height: 0;
         }
         .content.active{
+            width: calc(100vw - 30px);
+            margin: 0 auto;
             height: 100%;
+        }
+        .a_ticket_03 a{
+            width: 120px;
+            height: 120px;
+            gap: 10px;
         }
     }
     @media screen and (min-width:640px) and (max-width:1136px){
@@ -504,21 +574,28 @@ button.p_01, button.p_02, button.p_03, button.p_04{
         .container02 {
             display: flex;
             flex-direction: column;
-            width: 100vw;
+            width: calc(100vw - 10px);
             height: auto;
             background: none;
         }
         .container02 .tab{
-            width: 100vw;
+            width: calc(100vw - 30px);
             height: 100px;
             border:1px solid #f1f1f1;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            font-size: 2rem;
+            gap: 30px;
         }
         .content{
-            width: 100%;
+            width: calc(100vw - 30px);
+            margin: 0 auto;
             height: 0;
         }
         .content.active{
-            width: 100%;
+            width: calc(100vw - 30px);
+            margin: 0 auto;
             height: 750px;
         }
     }
