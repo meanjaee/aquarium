@@ -566,6 +566,12 @@ button.p_01, button.p_02, button.p_03, button.p_04{
             height: 120px;
             gap: 10px;
         }
+        .span button{
+            font-size: 1rem;
+        }
+        .span{
+            padding: 0;
+        }
     }
     @media screen and (min-width:640px) and (max-width:1136px){
         .sec02{

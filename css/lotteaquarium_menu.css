@@ -583,7 +583,9 @@ footer .left ul li {
         flex-direction: column;
         gap: 20px;
     }
-
+    .global_02 h2{
+        margin-bottom: 20px;
+    }
     
 
     ul {
