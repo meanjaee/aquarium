@@ -66,7 +66,7 @@
     
 }
 .banner li h1,.banner li p,.banner li h2{
-    line-height: 10px;
+    line-height: normal;
 }
 }
     .inner_2{margin: 0 auto;
@@ -243,6 +243,7 @@ colgroup, col {
     flex-direction: column;
     justify-content: flex-end   ;
     padding-bottom: 40px;
+    gap: 20px;
 }
 .href li a {
     display: flex;

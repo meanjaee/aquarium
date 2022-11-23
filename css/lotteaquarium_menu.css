@@ -160,7 +160,7 @@ footer .left ul li {
 
     .sec {
         height: calc(100vh - 200px);
-        margin-bottom: 80px;
+        margin:20px 0 80px;
     }
 
     a {
@@ -278,6 +278,7 @@ footer .left ul li {
     .global_02 h2 {
         color: #000;
         font-size: 16pt;
+        margin-bottom: 20px;
     }
     header {
         position: fixed;
@@ -399,7 +400,7 @@ footer .left ul li {
         flex-direction: row;
         width: 1440px;
         margin: 0 auto;
-        height: 300px;
+        height: auto;
         justify-content: space-between;
         align-items:center;
         /* background: #495dc0; */
@@ -446,7 +447,7 @@ footer .left ul li {
     footer li p, footer li a{
         font-size: 12pt;
         color: #fff;
-        line-height: 5px;
+        line-height: normal;
     }
     
     .go{
