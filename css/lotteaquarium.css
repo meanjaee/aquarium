@@ -207,15 +207,21 @@ border-radius: 15px;
 #right h3 {
     color: #fff;
     position: absolute;
-    bottom: 40px;
+    bottom: 120px;
     left: 40px;
     font-family: 'NotoSans-Bold';
     font-size: 40pt;
     transition: all 0.5s;
     z-index: 10;
+    line-height: 1.1;
 }
 #right h3 span {
-    font-size: 20pt;
+    font-size: 2rem;
+    color: #ffa800;
+    transition: all 0.5s;
+}
+#right:hover > h3 span {
+    font-size: 3rem;
     color: #ffa800;
 }
 #right a {
@@ -436,7 +442,6 @@ border-radius: 15px;
 
     .swiper {
     width: 100%;
-    margin: 80px auto;
 }
     
 
@@ -456,7 +461,7 @@ border-radius: 15px;
 
     .swiper-wrapper {
         width: 1440px;
-        height: 59.4444vw;
+        height: 100%;
         margin: 0 auto;
     }
 
@@ -1604,7 +1609,9 @@ border-radius: 15px;
             font-size: 12pt;
         }
 
-        
+        .swiper-wrapper{
+            height: calc(100vh - 210px);
+        }
 
         .swiper {
             width: 100%;
@@ -1834,16 +1841,9 @@ border-radius: 15px;
         .container{
             width: calc(100vw - 30px);
             height: calc(100vh - 200px);
-            margin-bottom: 80px;
+            margin-bottom: 0;
         }
-        .container03 {
-            display: flex;
-            flex-direction: row;
-            margin: 0 auto;
-            padding: 0;
-            height: calc(100vh - 80px);
-        }
-
+        
 
         #left {
             width: 100%;

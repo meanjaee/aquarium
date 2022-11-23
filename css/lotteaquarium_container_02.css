@@ -112,6 +112,7 @@ li.index.bus ul{
     display: flex;
     justify-content: center;
     padding:0;
+    gap: 15px;
 }
 
 li.index.bus ul li {
@@ -167,7 +168,7 @@ li.index.parking.active li{
 }
 .a_ticket_03{
     height: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -212,7 +213,7 @@ li.index.parking.active li{
 
 .a_ticket_03_check{
     padding: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;

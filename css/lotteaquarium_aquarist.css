@@ -140,11 +140,17 @@ ul.c li p{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    letter-spacing: -1px;
 }
 
 ul.c.active{
-    height: auto;
+    height: 180px;
     padding: 10px;
+}
+
+#con1 li a{
+    padding: 20px 0;
+
 }
 
 @media screen and (min-width:360px) and (max-width:1440px) {
